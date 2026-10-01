@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "luxury_watch_1.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

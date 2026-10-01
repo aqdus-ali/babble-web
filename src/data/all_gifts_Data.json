@@ -1,0 +1,2844 @@
+{
+  "gifts": {
+    "-O_Wv06QNTaYE4Hsvbnu": {
+      "giftLevel": 1,
+      "imageName": "celebration_baloon_4",
+      "name": "Ahmed Baloons",
+      "nameArb": "بالونات أحمد",
+      "price": 5000,
+      "redeemPrice": 2000,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "-O_X2u38XqARFrPByHUh": {
+      "giftLevel": 1,
+      "imageName": "love_heart_1",
+      "name": "Hearts",
+      "nameArb": "قلب طيب ",
+      "price": 500,
+      "redeemPrice": 450,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_XHA8U6Acbwi7ebSRi": {
+      "giftLevel": 1,
+      "imageName": "love_heart_2",
+      "name": "Silver Heart ",
+      "nameArb": "قلب فضي",
+      "price": 100,
+      "redeemPrice": 35,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_XpO7eTYsYIIo0byFX": {
+      "giftLevel": 0,
+      "imageName": "flower_rose_1",
+      "name": "Rose",
+      "nameArb": "وردة",
+      "price": 5,
+      "redeemPrice": 4,
+      "type": "Flowers & Nature 🌹",
+      "typeArb": "الزهور والطبيعة 🌹"
+    },
+    "-O_XpRE9QFU5jrMYpF5k": {
+      "giftLevel": 1,
+      "imageName": "love_handshake_1",
+      "name": "Hand Shake",
+      "nameArb": "مصافحة",
+      "price": 10,
+      "redeemPrice": 5,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_XpV4IOze1bgWY33Lr": {
+      "giftLevel": 1,
+      "imageName": "toy_donkey_1",
+      "name": "Rain",
+      "nameArb": "مطر",
+      "price": 10,
+      "redeemPrice": 5,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_XpoEaVULjP59zEofP": {
+      "giftLevel": 0,
+      "imageName": "food_1",
+      "name": "Meal",
+      "nameArb": "وجبة",
+      "price": 110,
+      "redeemPrice": 50,
+      "type": "Food & Drinks 🍽️",
+      "typeArb": "الطعام والمشروبات 🍽️"
+    },
+    "-O_Y00lQ_kkl-gwI22u4": {
+      "giftLevel": 0,
+      "imageName": "celebration_cake_1",
+      "name": "Cake",
+      "nameArb": "كعكة",
+      "price": 50,
+      "redeemPrice": 10,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "-O_Y06NBJDGb-yYztJLl": {
+      "giftLevel": 1,
+      "imageName": "celebration_cake_2",
+      "name": "عيد الميلاد سعيد",
+      "nameArb": "عيد ميلاد سعيد",
+      "price": 50,
+      "redeemPrice": 22,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "-O_Y5rBhIO2aVIdW26Kl": {
+      "giftLevel": 0,
+      "imageName": "celebration_baloon_1",
+      "name": "Baboons Premium",
+      "nameArb": "بالونات بريميوم",
+      "price": 15,
+      "redeemPrice": 7,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "-O_YGb6WfYh2Bpwlu7xA": {
+      "giftLevel": 0,
+      "imageName": "celebration_cake_3",
+      "name": "Simple Cake",
+      "nameArb": "كعكة بسيطة",
+      "price": 2000,
+      "redeemPrice": 200,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "-O_YGuNZRv-JuXXBwF4X": {
+      "giftLevel": 1,
+      "imageName": "celebration_boom_2",
+      "name": "Love Car update",
+      "nameArb": "سيارة حب محدثة",
+      "price": 10001,
+      "redeemPrice": 5000,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "-O_YH2CNQCloIs6bfIID": {
+      "giftLevel": 0,
+      "imageName": "celebration_boom_3",
+      "name": "Boom",
+      "nameArb": "انفجار",
+      "price": 11000,
+      "redeemPrice": 6500,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "-O_YHJbtjkJe8iklRb-R": {
+      "giftLevel": 0,
+      "imageName": "celebration_star_2",
+      "name": "Stars",
+      "nameArb": "نجوم",
+      "price": 100,
+      "redeemPrice": 80,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "-O_YHSxyrJVcPatsW3rT": {
+      "giftLevel": 1,
+      "imageName": "dragon",
+      "name": "dragon",
+      "nameArb": "نجمة",
+      "price": 80,
+      "redeemPrice": 50,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "-O_YHy0k2Brl4JK1OgJd": {
+      "giftLevel": 0,
+      "imageName": "celebration_baloon_2",
+      "name": "Baloons",
+      "nameArb": "بالونات",
+      "price": 100,
+      "redeemPrice": 30,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "-O_YItwTYfT737_5mmPL": {
+      "giftLevel": 0,
+      "imageName": "love_handshake_2",
+      "name": "Hand Shake",
+      "nameArb": "مصافحة",
+      "price": 20,
+      "redeemPrice": 15,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_YeAz1iaJWgwVidJo6": {
+      "giftLevel": 1,
+      "imageName": "flower_bouquet_2",
+      "name": "Bouquet",
+      "nameArb": "باقة ورد",
+      "price": 65,
+      "redeemPrice": 50,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "-O_YeZMoTYsZjoKBjidO": {
+      "giftLevel": 0,
+      "imageName": "love_heart_3",
+      "name": "Heart",
+      "nameArb": "قلب",
+      "price": 12000,
+      "redeemPrice": 500,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_Yeb_epX6VGKcNPwzl": {
+      "giftLevel": 0,
+      "imageName": "love_heart_4",
+      "name": "Heart",
+      "nameArb": "قلب",
+      "price": 1000,
+      "redeemPrice": 500,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_YexuN4j_y_YKdvc_Z": {
+      "giftLevel": 1,
+      "imageName": "love_heart_5",
+      "name": "Heart ",
+      "nameArb": "قلب",
+      "price": 1500,
+      "redeemPrice": 1000,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_Yf23yrL_8F6uIYSZf": {
+      "giftLevel": 0,
+      "imageName": "love_heart_aura_1",
+      "name": "Aura Heart",
+      "nameArb": "قلب الهالة",
+      "price": 2000,
+      "redeemPrice": 1000,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_YhtqdGmvK65IhwSRv": {
+      "giftLevel": 0,
+      "imageName": "toy_donkey_2",
+      "name": "Donkeys",
+      "nameArb": "حمير",
+      "price": 12,
+      "redeemPrice": 8,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Yi1p4gpzSEqA_5sM_": {
+      "giftLevel": 0,
+      "imageName": "toy_duck_1",
+      "name": "Duck",
+      "nameArb": "بطة",
+      "price": 15,
+      "redeemPrice": 10,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Yi6GYb4p3O7fFDJpe": {
+      "giftLevel": 0,
+      "imageName": "toy_duck_2",
+      "name": "Duck",
+      "nameArb": "بطة",
+      "price": 18,
+      "redeemPrice": 12,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_YjFWIle6UPFI8s-YR": {
+      "giftLevel": 0,
+      "imageName": "luxury_ring_3",
+      "name": "Ring",
+      "nameArb": "خاتم",
+      "price": 50000,
+      "redeemPrice": 45000,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_YkW6ScIB9frA1RN5G": {
+      "giftLevel": 1,
+      "imageName": "luxury_ring_4",
+      "name": "Ring",
+      "nameArb": "خاتم",
+      "price": 210,
+      "redeemPrice": 100,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_YkxXinJqxTLN5e4L2": {
+      "giftLevel": 0,
+      "imageName": "love_heart_aura_2",
+      "name": "Aura Heart",
+      "nameArb": "قلب الهالة",
+      "price": 2500,
+      "redeemPrice": 200,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_Yl2NR50JPq8gfq1mT": {
+      "giftLevel": 1,
+      "imageName": "love_heart_aura_3",
+      "name": "Aura Heart",
+      "nameArb": "قلب الهالة",
+      "price": 2500,
+      "redeemPrice": 1500,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_Yl6Wv4SxlpB8OrBJd": {
+      "giftLevel": 0,
+      "imageName": "love_heart_aura_4",
+      "name": "Aura Heart",
+      "nameArb": "قلب الهالة",
+      "price": 3000,
+      "redeemPrice": 1000,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_YozWLlTReEgUIQEKQ": {
+      "giftLevel": 0,
+      "imageName": "love_heart_aura_5",
+      "name": "Aura Heart",
+      "nameArb": "قلب الهالة",
+      "price": 3000,
+      "redeemPrice": 1500,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_Z3tRD_Q5jTvrpyM_g": {
+      "giftLevel": 0,
+      "imageName": "other_1",
+      "name": "Kafuu",
+      "nameArb": "كافو",
+      "price": 50,
+      "redeemPrice": 50,
+      "type": "Others ✨",
+      "typeArb": "أخرى ✨"
+    },
+    "-O_Z3wo12E_v34H7QmvZ": {
+      "giftLevel": 0,
+      "imageName": "other_2",
+      "name": "Salam",
+      "nameArb": "سلام",
+      "price": 50,
+      "redeemPrice": 50,
+      "type": "Others ✨",
+      "typeArb": "أخرى ✨"
+    },
+    "-O_Z4Jqf1NEAdzAicW7J": {
+      "giftLevel": 1,
+      "imageName": "love_letter_1",
+      "name": "Love Letter ",
+      "nameArb": "رسالة حب",
+      "price": 5000,
+      "redeemPrice": 2000,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_Z4NwJQwzPWlnLRSMb": {
+      "giftLevel": 0,
+      "imageName": "love_letter_2",
+      "name": "Love Letter",
+      "nameArb": "رسالة حب",
+      "price": 5000,
+      "redeemPrice": 3500,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_Z4ZW3mxBRJlYGD5F8": {
+      "giftLevel": 0,
+      "imageName": "love_letter_3",
+      "name": "Love Letter",
+      "nameArb": "رسالة حب",
+      "price": 4000,
+      "redeemPrice": 2000,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_Z4dF_rFGijui_yFM8": {
+      "giftLevel": 0,
+      "imageName": "love_letter_4",
+      "name": "Love Letter",
+      "nameArb": "رسالة حب",
+      "price": 4500,
+      "redeemPrice": 4000,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_Z4jk0EEiK8q71QYWK": {
+      "giftLevel": 0,
+      "imageName": "love_shoes_1",
+      "name": "Ladies Shoes",
+      "nameArb": "حذاء نسائي",
+      "price": 60,
+      "redeemPrice": 50,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_Z4sMbmHbuYXLVFWci": {
+      "giftLevel": 0,
+      "imageName": "love_shoes_2",
+      "name": "Ladies Shoes",
+      "nameArb": "حذاء نسائي",
+      "price": 50,
+      "redeemPrice": 30,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_Z5-FJ0faTHBaug2tR": {
+      "giftLevel": 0,
+      "imageName": "love_shoes_3",
+      "name": "Shoe",
+      "nameArb": "حذاء",
+      "price": 5,
+      "redeemPrice": 3,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-O_Z5wVXtV4SBYXsYEXa": {
+      "giftLevel": 0,
+      "imageName": "flower_rose_2",
+      "name": "Rose",
+      "nameArb": "وردة",
+      "price": 10,
+      "redeemPrice": 5,
+      "type": "Flowers & Nature 🌹",
+      "typeArb": "الزهور والطبيعة 🌹"
+    },
+    "-O_Z6Kax4rOvEmDSzNJW": {
+      "giftLevel": 1,
+      "imageName": "flower_bouquet_1",
+      "name": "Cries",
+      "nameArb": "باقة ورد",
+      "price": 40,
+      "redeemPrice": 25,
+      "type": "Flowers & Nature 🌹",
+      "typeArb": "الزهور والطبيعة 🌹"
+    },
+    "-O_Z6Nlm67uul6k9JfAT": {
+      "giftLevel": 0,
+      "imageName": "flower_bouquet_3",
+      "name": "Bouquet",
+      "nameArb": "باقة ورد",
+      "price": 60,
+      "redeemPrice": 30,
+      "type": "Flowers & Nature 🌹",
+      "typeArb": "الزهور والطبيعة 🌹"
+    },
+    "-O_Z6R6oIBZ2vM4CeRcz": {
+      "giftLevel": 0,
+      "imageName": "flower_bouquet_4",
+      "name": "Girl Bouquet",
+      "nameArb": "باقة بنت",
+      "price": 50,
+      "redeemPrice": 25,
+      "type": "Flowers & Nature 🌹",
+      "typeArb": "الزهور والطبيعة 🌹"
+    },
+    "-O_Z6iRlqMpKUkBX1Kse": {
+      "giftLevel": 0,
+      "imageName": "flower_date_tree_1",
+      "name": "Tree",
+      "nameArb": "شجرة",
+      "price": 10,
+      "redeemPrice": 5,
+      "type": "Flowers & Nature 🌹",
+      "typeArb": "الزهور والطبيعة 🌹"
+    },
+    "-O_Z6nLoka_3CdzmdQzh": {
+      "giftLevel": 0,
+      "imageName": "flower_date_tree_2",
+      "name": "Tree",
+      "nameArb": "شجرة",
+      "price": 15,
+      "redeemPrice": 10,
+      "type": "Flowers & Nature 🌹",
+      "typeArb": "الزهور والطبيعة 🌹"
+    },
+    "-O_Z6qljbU4915mJVl0J": {
+      "giftLevel": 0,
+      "imageName": "flower_date_tree_3",
+      "name": "Tree",
+      "nameArb": "شجرة",
+      "price": 20,
+      "redeemPrice": 10,
+      "type": "Flowers & Nature 🌹",
+      "typeArb": "الزهور والطبيعة 🌹"
+    },
+    "-O_Z6uqrqPtHgNyuXlhG": {
+      "giftLevel": 1,
+      "imageName": "flower_date_tree_4",
+      "name": "Rose",
+      "nameArb": "وردة",
+      "price": 25,
+      "redeemPrice": 15,
+      "type": "Flowers & Nature 🌹",
+      "typeArb": "الزهور والطبيعة 🌹"
+    },
+    "-O_Z77LgE-mofIp3pXqw": {
+      "giftLevel": 0,
+      "imageName": "flower_fruit_1",
+      "name": "Strawberry",
+      "nameArb": "فراولة",
+      "price": 70,
+      "redeemPrice": 50,
+      "type": "Flowers & Nature 🌹",
+      "typeArb": "الزهور والطبيعة 🌹"
+    },
+    "-O_Z7F6qj47U5w61SD0p": {
+      "giftLevel": 0,
+      "imageName": "flower_fruit_2",
+      "name": "Mix Fruits",
+      "nameArb": "فواكه مشكلة",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flowers & Nature 🌹",
+      "typeArb": "الزهور والطبيعة 🌹"
+    },
+    "-O_Z7JP_Zc4ljeWcKtUb": {
+      "giftLevel": 0,
+      "imageName": "flower_fruit_3",
+      "name": "Mangoes",
+      "nameArb": "مانجو",
+      "price": 75,
+      "redeemPrice": 50,
+      "type": "Flowers & Nature 🌹",
+      "typeArb": "الزهور والطبيعة 🌹"
+    },
+    "-O_Z7MplKl5OzaWmQ6Vi": {
+      "giftLevel": 0,
+      "imageName": "flower_fruit_4",
+      "name": "Oranges",
+      "nameArb": "برتقال",
+      "price": 75,
+      "redeemPrice": 50,
+      "type": "Flowers & Nature 🌹",
+      "typeArb": "الزهور والطبيعة 🌹"
+    },
+    "-O_Z7SolP831woy3cfhg": {
+      "giftLevel": 0,
+      "imageName": "flower_fruit_5",
+      "name": "Strawberries",
+      "nameArb": "فراولة",
+      "price": 80,
+      "redeemPrice": 50,
+      "type": "Flowers & Nature 🌹",
+      "typeArb": "الزهور والطبيعة 🌹"
+    },
+    "-O_Z7YahX9M7FmPE4sPe": {
+      "giftLevel": 0,
+      "imageName": "flower_fruit_6",
+      "name": "Mix Fruits",
+      "nameArb": "فواكه مشكلة",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flowers & Nature 🌹",
+      "typeArb": "الزهور والطبيعة 🌹"
+    },
+    "-O_Z8F46BUzg45ZnTyyM": {
+      "giftLevel": 0,
+      "imageName": "toy_duck_3",
+      "name": "AI Duck",
+      "nameArb": "بطة ذكاء اصطناعي",
+      "price": 20,
+      "redeemPrice": 10,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z8IYRbPdltj9aAd55": {
+      "giftLevel": 0,
+      "imageName": "toy_fish_1",
+      "name": "Fish",
+      "nameArb": "سمكة",
+      "price": 20,
+      "redeemPrice": 15,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z8Md3JkGATPUaIzYN": {
+      "giftLevel": 0,
+      "imageName": "toy_fish_2",
+      "name": "Fish",
+      "nameArb": "سمكة",
+      "price": 25,
+      "redeemPrice": 15,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z8QSlNaoYcJyvr_m3": {
+      "giftLevel": 0,
+      "imageName": "toy_fish_3",
+      "name": "Fish",
+      "nameArb": "سمكة",
+      "price": 25,
+      "redeemPrice": 15,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z8V0AAtiqL4Do7uVB": {
+      "giftLevel": 0,
+      "imageName": "toy_fish_4",
+      "name": "Fish",
+      "nameArb": "سمكة",
+      "price": 30,
+      "redeemPrice": 20,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z8_GoIs1pnnptq3DG": {
+      "giftLevel": 0,
+      "imageName": "toy_fish_5",
+      "name": "Fish",
+      "nameArb": "سمكة",
+      "price": 35,
+      "redeemPrice": 20,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z8e-GXDhdm7f_lqaD": {
+      "giftLevel": 0,
+      "imageName": "toy_fish_6",
+      "name": "Fish",
+      "nameArb": "سمكة",
+      "price": 40,
+      "redeemPrice": 20,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z8hmic94LLx0ko1nU": {
+      "giftLevel": 0,
+      "imageName": "toy_loin_1",
+      "name": "Loin",
+      "nameArb": "أسد",
+      "price": 50,
+      "redeemPrice": 25,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z8leL6sxb_qLazo9g": {
+      "giftLevel": 0,
+      "imageName": "toy_loin_2",
+      "name": "Loin",
+      "nameArb": "أسد",
+      "price": 50,
+      "redeemPrice": 25,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z8pOGqF8QhTAdTUnv": {
+      "giftLevel": 0,
+      "imageName": "toy_loin_3",
+      "name": "Loin",
+      "nameArb": "أسد",
+      "price": 60,
+      "redeemPrice": 30,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z8uQ7QFe3nKj3dOcM": {
+      "giftLevel": 0,
+      "imageName": "toy_taddy_bear_1",
+      "name": "Teddy Bear",
+      "nameArb": "دبدوب",
+      "price": 100,
+      "redeemPrice": 100,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z8yyz5f9voM_HxA42": {
+      "giftLevel": 1,
+      "imageName": "toy_taddy_bear_2",
+      "name": "Teddy Bear",
+      "nameArb": "دبدوب",
+      "price": 80,
+      "redeemPrice": 40,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z92Yw230o6pJtqIMg": {
+      "giftLevel": 1,
+      "imageName": "toy_taddy_bear_3",
+      "name": "Teddy Bear",
+      "nameArb": "دبدوب",
+      "price": 90,
+      "redeemPrice": 40,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z9CBCj2wN9szUButE": {
+      "giftLevel": 0,
+      "imageName": "toy_wolf_1",
+      "name": "AI Wolf",
+      "nameArb": "ذئب ذكاء اصطناعي",
+      "price": 110,
+      "redeemPrice": 50,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z9HATFmKR_bcIW2DF": {
+      "giftLevel": 0,
+      "imageName": "toy_wolf_2",
+      "name": "Wolf",
+      "nameArb": "ذئب",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z9P9EpHSx4qVeCC0i": {
+      "giftLevel": 0,
+      "imageName": "toy_peacock_1",
+      "name": "Peacock",
+      "nameArb": "طاووس",
+      "price": 120,
+      "redeemPrice": 60,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z9gYu56vcKl7OvSdh": {
+      "giftLevel": 1,
+      "imageName": "toy_peacock_3",
+      "name": "King Peacock",
+      "nameArb": "طاووس ملكي",
+      "price": 150,
+      "redeemPrice": 80,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "-O_Z9x3VE0TBEp4XCZPS": {
+      "giftLevel": 1,
+      "imageName": "food_2",
+      "name": "Burger",
+      "nameArb": "برغر",
+      "price": 25,
+      "redeemPrice": 15,
+      "type": "Food & Drinks 🍽️",
+      "typeArb": "الطعام والمشروبات 🍽️"
+    },
+    "-O_ZA0in8Q7VrvF-cIH7": {
+      "giftLevel": 0,
+      "imageName": "food_coffee_1",
+      "name": "Coffee ",
+      "nameArb": "قهوة",
+      "price": 50,
+      "redeemPrice": 25,
+      "type": "Food & Drinks 🍽️",
+      "typeArb": "الطعام والمشروبات 🍽️"
+    },
+    "-O_ZA4Spz_HHGHGfux4t": {
+      "giftLevel": 0,
+      "imageName": "food_coffee_2",
+      "name": "Coffee",
+      "nameArb": "قهوة",
+      "price": 40,
+      "redeemPrice": 20,
+      "type": "Food & Drinks 🍽️",
+      "typeArb": "الطعام والمشروبات 🍽️"
+    },
+    "-O_ZADF-5BtUgxISx4ZM": {
+      "giftLevel": 0,
+      "imageName": "food_icecream_1",
+      "name": "Ice creams ",
+      "nameArb": "آيس كريم",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Food & Drinks 🍽️",
+      "typeArb": "الطعام والمشروبات 🍽️"
+    },
+    "-O_ZAI3gN8TwAHmatp6l": {
+      "giftLevel": 0,
+      "imageName": "food_icecream_2",
+      "name": "Ice cream",
+      "nameArb": "آيس كريم",
+      "price": 10,
+      "redeemPrice": 5,
+      "type": "Food & Drinks 🍽️",
+      "typeArb": "الطعام والمشروبات 🍽️"
+    },
+    "-O_ZAO86g4CHvkEKAoQq": {
+      "giftLevel": 0,
+      "imageName": "food_icecream_3",
+      "name": "Ice creams ",
+      "nameArb": "آيس كريم",
+      "price": 50,
+      "redeemPrice": 25,
+      "type": "Food & Drinks 🍽️",
+      "typeArb": "الطعام والمشروبات 🍽️"
+    },
+    "-O_ZAW15dEM8obXA1NYp": {
+      "giftLevel": 0,
+      "imageName": "food_lollipop_1",
+      "name": "Lollipop",
+      "nameArb": "مصاصة",
+      "price": 4,
+      "redeemPrice": 2,
+      "type": "Food & Drinks 🍽️",
+      "typeArb": "الطعام والمشروبات 🍽️"
+    },
+    "-O_ZAZMMsQOLQf2xp5vp": {
+      "giftLevel": 0,
+      "imageName": "food_lollipop_2",
+      "name": "Lollipop",
+      "nameArb": "مصاصة",
+      "price": 5,
+      "redeemPrice": 3,
+      "type": "Food & Drinks 🍽️",
+      "typeArb": "الطعام والمشروبات 🍽️"
+    },
+    "-O_ZAl-M7lucckjM1GX4": {
+      "giftLevel": 0,
+      "imageName": "food_juice_1",
+      "name": "Shake",
+      "nameArb": "ميلك شيك",
+      "price": 50,
+      "redeemPrice": 25,
+      "type": "Food & Drinks 🍽️",
+      "typeArb": "الطعام والمشروبات 🍽️"
+    },
+    "-O_aAwmgth_IA1_L9Wua": {
+      "giftLevel": 0,
+      "imageName": "luxury_bag_1",
+      "name": "Bag",
+      "nameArb": "حقيبة",
+      "price": 180,
+      "redeemPrice": 100,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aB-jT1tIwuWgBi1aN": {
+      "giftLevel": 0,
+      "imageName": "luxury_bag_2",
+      "name": "Bag",
+      "nameArb": "حقيبة",
+      "price": 150,
+      "redeemPrice": 75,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aB2w8q9506bKhjqiX": {
+      "giftLevel": 1,
+      "imageName": "luxury_bag_3",
+      "name": "Gift Box",
+      "nameArb": "صندوق هدايا",
+      "price": 150,
+      "redeemPrice": 50,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aB7xDoOdFELYWN3Zx": {
+      "giftLevel": 0,
+      "imageName": "luxury_bell_1",
+      "name": "Bell",
+      "nameArb": "جرس",
+      "price": 50,
+      "redeemPrice": 25,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aBBIra0cHC5S_OppU": {
+      "giftLevel": 0,
+      "imageName": "luxury_bell_2",
+      "name": "Bell",
+      "nameArb": "جرس",
+      "price": 60,
+      "redeemPrice": 30,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aBHEn86p5EjvDxdx4": {
+      "giftLevel": 0,
+      "imageName": "luxury_crown_1",
+      "name": "King Crown",
+      "nameArb": "تاج ملك",
+      "price": 5000,
+      "redeemPrice": 2500,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aBO_xU_1cYWYFJWxf": {
+      "giftLevel": 0,
+      "imageName": "luxury_crown_2",
+      "name": "Queen Crown",
+      "nameArb": "تاج ملكة",
+      "price": 6000,
+      "redeemPrice": 3000,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aBXRzTpL6h7EC2PTZ": {
+      "giftLevel": 0,
+      "imageName": "luxury_crown_4",
+      "name": "Crown",
+      "nameArb": "تاج",
+      "price": 1500,
+      "redeemPrice": 750,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aBazjA5vPtadxFZjz": {
+      "giftLevel": 0,
+      "imageName": "luxury_crown_5",
+      "name": "Crown",
+      "nameArb": "تاج",
+      "price": 2500,
+      "redeemPrice": 1500,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aBoY1DADvxnQml9wP": {
+      "giftLevel": 0,
+      "imageName": "luxury_mic_2",
+      "name": "Mic",
+      "nameArb": "ميكروفون",
+      "price": 90,
+      "redeemPrice": 50,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aBxMWEIvJzUOzkRLc": {
+      "giftLevel": 0,
+      "imageName": "luxury_phone_3",
+      "name": "Mobile",
+      "nameArb": "جوال",
+      "price": 120,
+      "redeemPrice": 100,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aCEYayI0GLn3IqU19": {
+      "giftLevel": 0,
+      "imageName": "luxury_phone_4",
+      "name": "Phone",
+      "nameArb": "هاتف",
+      "price": 145,
+      "redeemPrice": 80,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aCQca5RR_XBn0CFil": {
+      "giftLevel": 0,
+      "imageName": "luxury_necklace_1",
+      "name": "Necklace",
+      "nameArb": "قلادة",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aCUH6sAPiEPEl8r6u": {
+      "giftLevel": 0,
+      "imageName": "luxury_necklace_2",
+      "name": "Necklace",
+      "nameArb": "قلادة",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aCYjNBWZgeULOSGlH": {
+      "giftLevel": 0,
+      "imageName": "luxury_necklace_3",
+      "name": "Necklace",
+      "nameArb": "قلادة",
+      "price": 750,
+      "redeemPrice": 350,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aCbw7l_7Ta8kNEp5i": {
+      "giftLevel": 1,
+      "imageName": "luxury_necklace_4",
+      "name": "Necklace",
+      "nameArb": "قلادة",
+      "price": 1000,
+      "redeemPrice": 800,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aCiFclps-GAqTDeYd": {
+      "giftLevel": 1,
+      "imageName": "luxury_watch_1",
+      "name": "Diamond",
+      "nameArb": "ألماس",
+      "price": 350,
+      "redeemPrice": 150,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aCmhyx6j8UC8TEZ1g": {
+      "giftLevel": 0,
+      "imageName": "luxury_watch_2",
+      "name": "Men Watch",
+      "nameArb": "ساعة رجالية",
+      "price": 300,
+      "redeemPrice": 150,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aCqjEn8uDTuNZG-9c": {
+      "giftLevel": 0,
+      "imageName": "luxury_watch_3",
+      "name": "Watch",
+      "nameArb": "ساعة",
+      "price": 200,
+      "redeemPrice": 100,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_aCuLbKMqqK6oCT1cE": {
+      "giftLevel": 0,
+      "imageName": "luxury_watch_4",
+      "name": "Watch",
+      "nameArb": "ساعة",
+      "price": 180,
+      "redeemPrice": 100,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-O_c5z4m0Z_IfjOmhWGQ": {
+      "giftLevel": 0,
+      "imageName": "other_3",
+      "name": "Rose",
+      "nameArb": "وردة",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Others ✨",
+      "typeArb": "أخرى ✨"
+    },
+    "-O_c62D58eMycgJmRU9b": {
+      "giftLevel": 1,
+      "imageName": "other_4",
+      "name": "Sword",
+      "nameArb": "أفاتار",
+      "price": 1000,
+      "redeemPrice": 500,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "-O_c65PEjQNoB_SROzX8": {
+      "giftLevel": 0,
+      "imageName": "other_5",
+      "name": "Cat",
+      "nameArb": "قطة",
+      "price": 55,
+      "redeemPrice": 10,
+      "type": "Others ✨",
+      "typeArb": "أخرى ✨"
+    },
+    "-O_c69bEZa7aBZCKM1uQ": {
+      "giftLevel": 0,
+      "imageName": "other_6",
+      "name": "Red Rose",
+      "nameArb": "وردة حمراء",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Others ✨",
+      "typeArb": "أخرى ✨"
+    },
+    "-O_c6CY9TW1bFkxSuka-": {
+      "giftLevel": 0,
+      "imageName": "other_7",
+      "name": "Cat",
+      "nameArb": "قطة",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Others ✨",
+      "typeArb": "أخرى ✨"
+    },
+    "-O_c6H222DHaDM2fBLV4": {
+      "giftLevel": 0,
+      "imageName": "other_8",
+      "name": "Camel",
+      "nameArb": "جمل",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Others ✨",
+      "typeArb": "أخرى ✨"
+    },
+    "-O_c6LE-KSgSIO6MdL2-": {
+      "giftLevel": 1,
+      "imageName": "other_9",
+      "name": "Zoo",
+      "nameArb": "حديقة حيوان",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Others ✨",
+      "typeArb": "أخرى ✨"
+    },
+    "-O_c6QHxfKFP_vDjeTst": {
+      "giftLevel": 0,
+      "imageName": "other_10",
+      "name": "AVATAR",
+      "nameArb": "أفاتار",
+      "price": 1000,
+      "redeemPrice": 500,
+      "type": "Others ✨",
+      "typeArb": "أخرى ✨"
+    },
+    "-O_flag1": {
+      "giftLevel": 0,
+      "imageName": "argentina",
+      "name": "Argentina",
+      "nameArb": "علم الأرجنتين",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag10": {
+      "giftLevel": 0,
+      "imageName": "jordan",
+      "name": "Jordan",
+      "nameArb": "علم الأردن",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag11": {
+      "giftLevel": 0,
+      "imageName": "kuwait",
+      "name": "Kuwait",
+      "nameArb": "علم الكويت",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag12": {
+      "giftLevel": 0,
+      "imageName": "lebanon",
+      "name": "Lebanon",
+      "nameArb": "علم لبنان",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag13": {
+      "giftLevel": 0,
+      "imageName": "oman",
+      "name": "Oman",
+      "nameArb": "علم عمان",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag14": {
+      "giftLevel": 0,
+      "imageName": "pakistan",
+      "name": "Pakistan",
+      "nameArb": "علم باكستان",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag15": {
+      "giftLevel": 0,
+      "imageName": "palestine",
+      "name": "Palestine",
+      "nameArb": "علم فلسطين",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag16": {
+      "giftLevel": 0,
+      "imageName": "saudiArabia",
+      "name": "Saudi Arabia",
+      "nameArb": "علم السعودية",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag17": {
+      "giftLevel": 0,
+      "imageName": "spain",
+      "name": "Spain",
+      "nameArb": "علم إسبانيا",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag18": {
+      "giftLevel": 0,
+      "imageName": "syria",
+      "name": "Syria",
+      "nameArb": "علم سوريا",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag19": {
+      "giftLevel": 0,
+      "imageName": "turkey",
+      "name": "Turkey",
+      "nameArb": "علم تركيا",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag2": {
+      "giftLevel": 0,
+      "imageName": "brazil",
+      "name": "Brazil",
+      "nameArb": "علم البرازيل",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag20": {
+      "giftLevel": 0,
+      "imageName": "uae",
+      "name": "United Arab Emirates",
+      "nameArb": "علم الإمارات",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag21": {
+      "giftLevel": 0,
+      "imageName": "uk",
+      "name": "United Kingdom",
+      "nameArb": "علم المملكة المتحدة",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag3": {
+      "giftLevel": 0,
+      "imageName": "canada",
+      "name": "Canada",
+      "nameArb": "علم كندا",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag4": {
+      "giftLevel": 0,
+      "imageName": "flag_bahrain",
+      "name": "Bahrain",
+      "nameArb": "علم البحرين",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag5": {
+      "giftLevel": 0,
+      "imageName": "flag_cyprus",
+      "name": "Cyprus",
+      "nameArb": "علم قبرص",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag6": {
+      "giftLevel": 0,
+      "imageName": "flag_egypt",
+      "name": "Egypt",
+      "nameArb": "علم مصر",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag7": {
+      "giftLevel": 0,
+      "imageName": "flag_iran",
+      "name": "Iran",
+      "nameArb": "علم إيران",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag8": {
+      "giftLevel": 0,
+      "imageName": "flag_iraq",
+      "name": "Iraq",
+      "nameArb": "علم العراق",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_flag9": {
+      "giftLevel": 0,
+      "imageName": "india",
+      "name": "India",
+      "nameArb": "علم الهند",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-O_mf8tKXpotArmpBk4l": {
+      "giftLevel": 0,
+      "imageName": "wealth_box_1",
+      "name": "Box",
+      "nameArb": "صندوق",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Wealth & Status 💰",
+      "typeArb": "الثروة والمكانة 💰"
+    },
+    "-O_mfvMuv1mZ2ZWhibDr": {
+      "giftLevel": 0,
+      "imageName": "wealth_box_2",
+      "name": "Gift Box",
+      "nameArb": "صندوق هدايا",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Wealth & Status 💰",
+      "typeArb": "الثروة والمكانة 💰"
+    },
+    "-O_mfzc73gNe_Po5JNmX": {
+      "giftLevel": 1,
+      "imageName": "wealth_box_3",
+      "name": "Coins",
+      "nameArb": "عملات",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Wealth & Status 💰",
+      "typeArb": "الثروة والمكانة 💰"
+    },
+    "-O_mg2KnXWtu4gqyA13c": {
+      "giftLevel": 1,
+      "imageName": "wealth_money_1",
+      "name": "Money",
+      "nameArb": "مال",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Wealth & Status 💰",
+      "typeArb": "الثروة والمكانة 💰"
+    },
+    "-O_mg62bDp8Qphxa6oHI": {
+      "giftLevel": 1,
+      "imageName": "wealth_money_2",
+      "name": "Money Gun",
+      "nameArb": "مسدس نقود",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Wealth & Status 💰",
+      "typeArb": "الثروة والمكانة 💰"
+    },
+    "-O_mg9_QZ80LhqHlWa89": {
+      "giftLevel": 1,
+      "imageName": "wealth_money_3",
+      "name": "Fly Money",
+      "nameArb": "نقود طائرة",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Wealth & Status 💰",
+      "typeArb": "الثروة والمكانة 💰"
+    },
+    "-O_mgClNNypbjYKIxKK-": {
+      "giftLevel": 0,
+      "imageName": "wealth_money_4",
+      "name": "Money",
+      "nameArb": "مال",
+      "price": 250,
+      "redeemPrice": 150,
+      "type": "Wealth & Status 💰",
+      "typeArb": "الثروة والمكانة 💰"
+    },
+    "-O_mgGIi5u4mgOIj_pHG": {
+      "giftLevel": 0,
+      "imageName": "wealth_vehicle_1",
+      "name": "Bike",
+      "nameArb": "دراجة",
+      "price": 1000,
+      "redeemPrice": 800,
+      "type": "Wealth & Status 💰",
+      "typeArb": "الثروة والمكانة 💰"
+    },
+    "-O_mgMjpoXe8sqJVHb6y": {
+      "giftLevel": 0,
+      "imageName": "wealth_vehicle_2",
+      "name": "Helicopter",
+      "nameArb": "طائرة",
+      "price": 2000,
+      "redeemPrice": 1000,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "-O_mgQ6EMj0u0bOfmkQi": {
+      "giftLevel": 0,
+      "imageName": "wealth_vehicle_3",
+      "name": "Card",
+      "nameArb": "بطاقة",
+      "price": 1500,
+      "redeemPrice": 500,
+      "type": "Wealth & Status 💰",
+      "typeArb": "الثروة والمكانة 💰"
+    },
+    "-O_mgTj7hOMRtHsiidV1": {
+      "giftLevel": 1,
+      "imageName": "wealth_vehicle_4",
+      "name": "Fire Bike",
+      "nameArb": "دراجة نارية نارية",
+      "price": 250,
+      "redeemPrice": 150,
+      "type": "Wealth & Status 💰",
+      "typeArb": "الثروة والمكانة 💰"
+    },
+    "-O_mgWp-hNQRTcsLwOYh": {
+      "giftLevel": 0,
+      "imageName": "wealth_vehicle_5",
+      "name": "Wheel",
+      "nameArb": "عجلة",
+      "price": 50,
+      "redeemPrice": 20,
+      "type": "Wealth & Status 💰",
+      "typeArb": "الثروة والمكانة 💰"
+    },
+    "-O_mgZsflTblhlouJ6pw": {
+      "giftLevel": 1,
+      "imageName": "wealth_vehicle_6",
+      "name": "Bike",
+      "nameArb": "دراجة",
+      "price": 300,
+      "redeemPrice": 120,
+      "type": "Wealth & Status 💰",
+      "typeArb": "الثروة والمكانة 💰"
+    },
+    "-O_mgcVcMf9TZyLTmQuH": {
+      "giftLevel": 1,
+      "imageName": "wealth_vehicle_7",
+      "name": "Car",
+      "nameArb": "سيارة",
+      "price": 2500,
+      "redeemPrice": 1500,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "-O_mggXkyOm3YWAM7mCe": {
+      "giftLevel": 0,
+      "imageName": "wealth_vehicle_8",
+      "name": "Bug Car",
+      "nameArb": "سيارة حشرة",
+      "price": 1000,
+      "redeemPrice": 500,
+      "type": "Wealth & Status 💰",
+      "typeArb": "الثروة والمكانة 💰"
+    },
+    "-O_mgk5iDGXEGPSGTkYF": {
+      "giftLevel": 1,
+      "imageName": "wealth_vehicle_9",
+      "name": "Sport Car",
+      "nameArb": "سيارة هدية",
+      "price": 5000,
+      "redeemPrice": 3000,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "-O_pa6vVzHoW1O0gI2q2": {
+      "giftLevel": 0,
+      "imageName": "solor_earth_1",
+      "name": "Earth",
+      "nameArb": "الأرض",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Universe 🌌",
+      "typeArb": "الكون 🌌"
+    },
+    "-O_paUGMuDf8Qq_ck9rY": {
+      "giftLevel": 1,
+      "imageName": "solor_galexy_1",
+      "name": "Galaxy",
+      "nameArb": "مجرة",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Universe 🌌",
+      "typeArb": "الكون 🌌"
+    },
+    "-O_paXlCCDDnwq97ijB3": {
+      "giftLevel": 0,
+      "imageName": "solor_moon_1",
+      "name": "Moon",
+      "nameArb": "قمر",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Universe 🌌",
+      "typeArb": "الكون 🌌"
+    },
+    "-O_paatldxy2bKonoy0l": {
+      "giftLevel": 1,
+      "imageName": "solor_moon_2",
+      "name": "Solar",
+      "nameArb": "شمسي",
+      "price": 5000,
+      "redeemPrice": 2500,
+      "type": "Universe 🌌",
+      "typeArb": "الكون 🌌"
+    },
+    "-O_paeRcm0za50G-EBrL": {
+      "giftLevel": 0,
+      "imageName": "solor_moon_3",
+      "name": "Solar",
+      "nameArb": "شمسي",
+      "price": 5000,
+      "redeemPrice": 250,
+      "type": "Universe 🌌",
+      "typeArb": "الكون 🌌"
+    },
+    "-O_pahRCffF5hIqwsz5U": {
+      "giftLevel": 0,
+      "imageName": "solor_sun_1",
+      "name": "Sun",
+      "nameArb": "شمس",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Universe 🌌",
+      "typeArb": "الكون 🌌"
+    },
+    "-O_pspqqsTRKBWJxsTll": {
+      "giftLevel": 0,
+      "imageName": "emoji_1",
+      "name": "Smile",
+      "nameArb": "ابتسامة",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Emoji's 😊",
+      "typeArb": "الرموز التعبيرية 😊"
+    },
+    "-O_psv_Hyu0i7yc_8-H6": {
+      "giftLevel": 0,
+      "imageName": "emoji_2",
+      "name": "Angry",
+      "nameArb": "غاضب",
+      "price": 100000,
+      "redeemPrice": 40000,
+      "type": "Emoji's 😊",
+      "typeArb": "الرموز التعبيرية 😊"
+    },
+    "-O_psyyLfSSiHZiZdGDM": {
+      "giftLevel": 0,
+      "imageName": "emoji_3",
+      "name": "Happy",
+      "nameArb": "سعيد",
+      "price": 300,
+      "redeemPrice": 250,
+      "type": "Emoji's 😊",
+      "typeArb": "الرموز التعبيرية 😊"
+    },
+    "-O_pt1woIe5owHDU50nu": {
+      "giftLevel": 0,
+      "imageName": "emoji_4",
+      "name": "Happy",
+      "nameArb": "سعيد",
+      "price": 250,
+      "redeemPrice": 150,
+      "type": "Emoji's 😊",
+      "typeArb": "الرموز التعبيرية 😊"
+    },
+    "-O_pt5GwM8ALHfsfca4e": {
+      "giftLevel": 0,
+      "imageName": "emoji_5",
+      "name": "Love",
+      "nameArb": "حب",
+      "price": 300,
+      "redeemPrice": 150,
+      "type": "Emoji's 😊",
+      "typeArb": "الرموز التعبيرية 😊"
+    },
+    "-O_ptEuTH36MhGgGIdDk": {
+      "giftLevel": 0,
+      "imageName": "emoji_6",
+      "name": "Cry",
+      "nameArb": "بكاء",
+      "price": 300,
+      "redeemPrice": 250,
+      "type": "Emoji's 😊",
+      "typeArb": "الرموز التعبيرية 😊"
+    },
+    "-O_ptI8X8tdoyrQaLow-": {
+      "giftLevel": 0,
+      "imageName": "emoji_7",
+      "name": "Hmm",
+      "nameArb": "همم",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "Emoji's 😊",
+      "typeArb": "الرموز التعبيرية 😊"
+    },
+    "-O_ptL6CqXepv6rFdlNa": {
+      "giftLevel": 0,
+      "imageName": "emoji_8",
+      "name": "Oo",
+      "nameArb": "أوو",
+      "price": 300,
+      "redeemPrice": 100,
+      "type": "Emoji's 😊",
+      "typeArb": "الرموز التعبيرية 😊"
+    },
+    "-O_ptO2vOyfdgqyETFT9": {
+      "giftLevel": 0,
+      "imageName": "emoji_10",
+      "name": "Emoji",
+      "nameArb": "إيموجي",
+      "price": 300,
+      "redeemPrice": 150,
+      "type": "Emoji's 😊",
+      "typeArb": "الرموز التعبيرية 😊"
+    },
+    "-O_ptSFB0n1UJgNQ6C88": {
+      "giftLevel": 0,
+      "imageName": "emoji_9",
+      "name": "😋",
+      "nameArb": "😋",
+      "price": 300,
+      "redeemPrice": 100,
+      "type": "Emoji's 😊",
+      "typeArb": "الرموز التعبيرية 😊"
+    },
+    "-O_ptZVLGpy5ciDc5TCX": {
+      "giftLevel": 0,
+      "imageName": "emoji_11",
+      "name": "😎",
+      "nameArb": "😎",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "Emoji's 😊",
+      "typeArb": "الرموز التعبيرية 😊"
+    },
+    "-O_ptc9qW4O3T2JgZJBE": {
+      "giftLevel": 0,
+      "imageName": "emoji_12",
+      "name": "🤣",
+      "nameArb": "🤣",
+      "price": 300,
+      "redeemPrice": 150,
+      "type": "Emoji's 😊",
+      "typeArb": "الرموز التعبيرية 😊"
+    },
+    "-O_ptji_CNYTdexsp55L": {
+      "giftLevel": 0,
+      "imageName": "emoji_13",
+      "name": "🤣🤣",
+      "nameArb": "🤣🤣",
+      "price": 300,
+      "redeemPrice": 100,
+      "type": "Emoji's 😊",
+      "typeArb": "الرموز التعبيرية 😊"
+    },
+    "-O_ptp-Tao4FnTEyXVWt": {
+      "giftLevel": 0,
+      "imageName": "emoji_14",
+      "name": "🥸",
+      "nameArb": "🥸",
+      "price": 300,
+      "redeemPrice": 100,
+      "type": "Emoji's 😊",
+      "typeArb": "الرموز التعبيرية 😊"
+    },
+    "-O_ptsy5JRmGj3d9JDmC": {
+      "giftLevel": 0,
+      "imageName": "emoji_15",
+      "name": "Love",
+      "nameArb": "حب",
+      "price": 100000,
+      "redeemPrice": 40000,
+      "type": "Emoji's 😊",
+      "typeArb": "الرموز التعبيرية 😊"
+    },
+    "-OaP0XDdM83T6RcWkCoe": {
+      "giftLevel": 1,
+      "imageName": "love_bird",
+      "name": "Love Birds",
+      "nameArb": "طيور الحب",
+      "price": 3,
+      "redeemPrice": 1,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "-OaP0dA9X2a_pCcaLecE": {
+      "giftLevel": 0,
+      "imageName": "love_bird_1",
+      "name": "Love Birds",
+      "nameArb": "طيور الحب",
+      "price": 2,
+      "redeemPrice": 1,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "-Oadvv0fSRzaa3bYwCMy": {
+      "giftLevel": 0,
+      "imageName": "st_51",
+      "name": "st_545",
+      "nameArb": "st_545",
+      "price": 1,
+      "redeemPrice": 1,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "-OadwgSN8W1ZjJKk148V": {
+      "giftLevel": 0,
+      "imageName": "st_62",
+      "name": "st_62",
+      "nameArb": "st_62",
+      "price": 1,
+      "redeemPrice": 1,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "-OadwmX0YPOwOwmXl_D3": {
+      "giftLevel": 0,
+      "imageName": "st_60",
+      "name": "Gift ",
+      "nameArb": "هدية",
+      "price": 5,
+      "redeemPrice": 5,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "-OadwtMzgJ4pvZvoH_j3": {
+      "giftLevel": 1,
+      "imageName": "st_59",
+      "name": "Gift",
+      "nameArb": "هدية",
+      "price": 2,
+      "redeemPrice": 2,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "-Oadwxq34ZhrDuph2_GK": {
+      "giftLevel": 0,
+      "imageName": "st_58",
+      "name": "Gift ",
+      "nameArb": "هدية",
+      "price": 3,
+      "redeemPrice": 3,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "-Oadx2-AWrl54VBioUFU": {
+      "giftLevel": 0,
+      "imageName": "st_58",
+      "name": "Gift ",
+      "nameArb": "هدية",
+      "price": 3,
+      "redeemPrice": 3,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "-Oadx5Q52oIIjRaMxdLp": {
+      "giftLevel": 0,
+      "imageName": "st_57",
+      "name": "5",
+      "nameArb": "5",
+      "price": 5,
+      "redeemPrice": 5,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "-OadxA2_BMe1OYbF_f1w": {
+      "giftLevel": 0,
+      "imageName": "st_56",
+      "name": "Gift",
+      "nameArb": "هدية",
+      "price": 5,
+      "redeemPrice": 5,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "-OadxDQta2OGUbuAUJ7B": {
+      "giftLevel": 0,
+      "imageName": "st_52",
+      "name": "6",
+      "nameArb": "6",
+      "price": 5,
+      "redeemPrice": 4,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "-Oaf7b9YGaYJczRejOvG": {
+      "giftLevel": 1,
+      "imageName": "wealth_money_5",
+      "name": "Fire Money",
+      "nameArb": "نقود نارية",
+      "price": 5,
+      "redeemPrice": 3,
+      "type": "Wealth & Status 💰",
+      "typeArb": "الثروة والمكانة 💰"
+    },
+    "-OafBbIGiWyALZOoC734": {
+      "giftLevel": 1,
+      "imageName": "celebration_star_4",
+      "name": "Fireworks. ",
+      "nameArb": "ألعاب نارية",
+      "price": 5009,
+      "redeemPrice": 2000,
+      "type": "Luxury & Accessories 💎",
+      "typeArb": "الفخامة والإكسسوارات 💎"
+    },
+    "-OafD3bO5PrWFubyENcB": {
+      "giftLevel": 1,
+      "imageName": "love_heart_6",
+      "name": "Flying Hearts",
+      "nameArb": "قلوب طائرة",
+      "price": 12000,
+      "redeemPrice": 5000,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-OafKND1KyiCtx2KVWtQ": {
+      "giftLevel": 1,
+      "imageName": "love_heart_aura_7",
+      "name": "love_heart_aura_7",
+      "nameArb": "قلب الهالة 7",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-OafMP37rg-uTJWXA7vI": {
+      "giftLevel": 1,
+      "imageName": "love_heart_7",
+      "name": "Dance ",
+      "nameArb": "رقص",
+      "price": 500,
+      "redeemPrice": 300,
+      "type": "Love & Emotions 🥰",
+      "typeArb": "الحب والمشاعر 🥰"
+    },
+    "-OafdPSN9NxSsT0LAWsy": {
+      "giftLevel": 0,
+      "imageName": "afghanistan",
+      "name": "Afghanistan",
+      "nameArb": "علم أفغانستان",
+      "price": 50,
+      "redeemPrice": 25,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-OafdY849s7ALfwdeM5x": {
+      "giftLevel": 0,
+      "imageName": "argentina",
+      "name": "Argentina",
+      "nameArb": "علم الأرجنتين",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-Oafdb7edHh7fUCGRT23": {
+      "giftLevel": 0,
+      "imageName": "bahamas",
+      "name": "Bahamas",
+      "nameArb": "علم البهاما",
+      "price": 50,
+      "redeemPrice": 20,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-Oafdek9T4dV_T9SJTPA": {
+      "giftLevel": 0,
+      "imageName": "bangladesh",
+      "name": "Bangladesh",
+      "nameArb": "علم بنغلاديش",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-OafdnjqY6rAIUtKiH-W": {
+      "giftLevel": 0,
+      "imageName": "chile",
+      "name": "Chile",
+      "nameArb": "علم تشيلي",
+      "price": 50,
+      "redeemPrice": 20,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-OafdsNKX08aZBZ1hDC9": {
+      "giftLevel": 0,
+      "imageName": "china",
+      "name": "China",
+      "nameArb": "علم الصين",
+      "price": 150,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-OafdvwcrQwYkN1jvEZ9": {
+      "giftLevel": 0,
+      "imageName": "dominica",
+      "name": "Dominica",
+      "nameArb": "علم دومينيكا",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-OafdzglB38EuNpZv6mB": {
+      "giftLevel": 0,
+      "imageName": "europeanUnion",
+      "name": "European union",
+      "nameArb": "علم الاتحاد الأوروبي",
+      "price": 5000,
+      "redeemPrice": 2500,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-Oafe2evHslCYsYMFnmV": {
+      "giftLevel": 0,
+      "imageName": "fiji",
+      "name": "Fiji",
+      "nameArb": "علم فيجي",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-OafeNj9TxW5-jmNpPX2": {
+      "giftLevel": 0,
+      "imageName": "georgia",
+      "name": "Georgia",
+      "nameArb": "علم جورجيا",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-OafebsLssTFKVS7Ekyy": {
+      "giftLevel": 0,
+      "imageName": "uk",
+      "name": "UK",
+      "nameArb": "علم المملكة المتحدة",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-OafehPRC86IY6xzqNcH": {
+      "giftLevel": 0,
+      "imageName": "tonga",
+      "name": "Tonga",
+      "nameArb": "علم تونغا",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-OafenwAn8mK-wfYHOIQ": {
+      "giftLevel": 0,
+      "imageName": "syria",
+      "name": "Syria",
+      "nameArb": "علم سوريا",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-Oaff5_u3oJ-WQH5tWka": {
+      "giftLevel": 0,
+      "imageName": "southKorea",
+      "name": "South Korea",
+      "nameArb": "علم كوريا الجنوبية",
+      "price": 100,
+      "redeemPrice": 50,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-OaffBwSe1bdNeNhDsI0": {
+      "giftLevel": 0,
+      "imageName": "newzealand",
+      "name": "Newzealand",
+      "nameArb": "علم نيوزيلندا",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-OaffIYOirsNQcU2Xjbg": {
+      "giftLevel": 0,
+      "imageName": "morocco",
+      "name": "Morocco",
+      "nameArb": "علم المغرب",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-OaffOgR93xBcO7-ZhQ8": {
+      "giftLevel": 0,
+      "imageName": "maldives",
+      "name": "Maldives",
+      "nameArb": "علم المالديف",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-OaffTvvJyeEUIGkZM1C": {
+      "giftLevel": 0,
+      "imageName": "malaysia",
+      "name": "Malaysia",
+      "nameArb": "علم ماليزيا",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "-Oafftip_E3Q3Qiyi1X5": {
+      "giftLevel": 0,
+      "imageName": "azerbaijan",
+      "name": "Azerbaijan",
+      "nameArb": "علم أذربيجان",
+      "price": 500,
+      "redeemPrice": 250,
+      "type": "Flags 🚩",
+      "typeArb": "الأعلام 🚩"
+    },
+    "3d-cartoon": {
+      "giftLevel": 0,
+      "imageName": "_3d-cartoon",
+      "name": "3D Cartoon",
+      "nameArb": "كرتون ثلاثي الأبعاد",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "3d-render-couple": {
+      "giftLevel": 0,
+      "imageName": "_3d-render-couple",
+      "name": "3D Render Couple",
+      "nameArb": "زوجان ثلاثي الأبعاد",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "baby-panda": {
+      "giftLevel": 1,
+      "imageName": "other_5",
+      "name": "other_5",
+      "nameArb": "other_5",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "bear": {
+      "giftLevel": 0,
+      "imageName": "bear",
+      "name": "Bear",
+      "nameArb": "دب",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "bear-dressed": {
+      "giftLevel": 0,
+      "imageName": "bear-dressed",
+      "name": "Bear Dressed",
+      "nameArb": "دب مرتدي",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "bucket": {
+      "giftLevel": 0,
+      "imageName": "bucket",
+      "name": "Bucket",
+      "nameArb": "دلو",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "bunny-plush": {
+      "giftLevel": 0,
+      "imageName": "bunny-plush",
+      "name": "Bunny Plush",
+      "nameArb": "أرنب قطيفة",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "celebration_1": {
+      "giftLevel": 0,
+      "imageName": "celebration_1",
+      "name": "Gift 1",
+      "nameArb": "هدية 1",
+      "price": 64,
+      "redeemPrice": 22,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "celebration_10": {
+      "giftLevel": 0,
+      "imageName": "celebration_10",
+      "name": "Gift 10",
+      "nameArb": "هدية 10",
+      "price": 12,
+      "redeemPrice": 8,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "celebration_11": {
+      "giftLevel": 0,
+      "imageName": "celebration_11",
+      "name": "Gift 11",
+      "nameArb": "هدية 11",
+      "price": 76,
+      "redeemPrice": 62,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "celebration_12": {
+      "giftLevel": 0,
+      "imageName": "celebration_12",
+      "name": "Gift 12",
+      "nameArb": "هدية 12",
+      "price": 88,
+      "redeemPrice": 34,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "celebration_13": {
+      "giftLevel": 0,
+      "imageName": "celebration_13",
+      "name": "Gift 13",
+      "nameArb": "هدية 13",
+      "price": 79,
+      "redeemPrice": 62,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "celebration_14": {
+      "giftLevel": 0,
+      "imageName": "celebration_14",
+      "name": "Gift 14",
+      "nameArb": "هدية 14",
+      "price": 92,
+      "redeemPrice": 79,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "celebration_2": {
+      "giftLevel": 0,
+      "imageName": "celebration_2",
+      "name": "Gift 2",
+      "nameArb": "هدية 2",
+      "price": 38,
+      "redeemPrice": 34,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "celebration_3": {
+      "giftLevel": 0,
+      "imageName": "celebration_3",
+      "name": "Gift 3",
+      "nameArb": "هدية 3",
+      "price": 26,
+      "redeemPrice": 9,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "celebration_4": {
+      "giftLevel": 0,
+      "imageName": "celebration_4",
+      "name": "Gift 4",
+      "nameArb": "هدية 4",
+      "price": 39,
+      "redeemPrice": 7,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "celebration_5": {
+      "giftLevel": 1,
+      "imageName": "celebration_5",
+      "name": "Dancing Monkey",
+      "nameArb": "قرد راقص",
+      "price": 45,
+      "redeemPrice": 30,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "celebration_6": {
+      "giftLevel": 0,
+      "imageName": "celebration_6",
+      "name": "Gift 6",
+      "nameArb": "هدية 6",
+      "price": 37,
+      "redeemPrice": 1,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "celebration_7": {
+      "giftLevel": 0,
+      "imageName": "celebration_7",
+      "name": "Gift 7",
+      "nameArb": "هدية 7",
+      "price": 25,
+      "redeemPrice": 11,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "celebration_8": {
+      "giftLevel": 0,
+      "imageName": "celebration_8",
+      "name": "Gift 8",
+      "nameArb": "هدية 8",
+      "price": 85,
+      "redeemPrice": 66,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "celebration_9": {
+      "giftLevel": 0,
+      "imageName": "celebration_9",
+      "name": "Gift 9",
+      "nameArb": "هدية 9",
+      "price": 11,
+      "redeemPrice": 8,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "couple-bear": {
+      "giftLevel": 0,
+      "imageName": "couple-bear",
+      "name": "Couple Bear",
+      "nameArb": "دب زوجين",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "couple-riding-bicycle": {
+      "giftLevel": 0,
+      "imageName": "couple-riding-bicycle",
+      "name": "Couple Riding Bicycle",
+      "nameArb": "زوجان يركبان دراجة",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "cute-baby-panda": {
+      "giftLevel": 0,
+      "imageName": "cute-baby-panda",
+      "name": "Cute Baby Panda",
+      "nameArb": "باندا صغير لطيف",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "cute-cartoon": {
+      "giftLevel": 0,
+      "imageName": "cute-cartoon",
+      "name": "Cute Cartoon",
+      "nameArb": "كرتون لطيف",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "cute-elephant": {
+      "giftLevel": 0,
+      "imageName": "cute-elephant",
+      "name": "Cute Elephant",
+      "nameArb": "فيل لطيف",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "day-couple-kissing": {
+      "giftLevel": 0,
+      "imageName": "day-couple-kissing",
+      "name": "Day Couple Kissing",
+      "nameArb": "زوجان يتقبلان نهاراً",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "day-heart": {
+      "giftLevel": 0,
+      "imageName": "day-heart",
+      "name": "Day Heart",
+      "nameArb": "قلب النهار",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "dragon": {
+      "giftLevel": 0,
+      "imageName": "dragon",
+      "name": "Dragon",
+      "nameArb": "تنين",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "drone": {
+      "giftLevel": 0,
+      "imageName": "drone",
+      "name": "Drone",
+      "nameArb": "درون",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "eid-mubarak": {
+      "giftLevel": 0,
+      "imageName": "eid-mubarak",
+      "name": "Eid Mubarak",
+      "nameArb": "عيد مبارك",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "electric-guitar": {
+      "giftLevel": 0,
+      "imageName": "electric-guitar",
+      "name": "Electric Guitar",
+      "nameArb": "جيتار كهربائي",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "farmhouse-isolated": {
+      "giftLevel": 0,
+      "imageName": "farmhouse-isolated",
+      "name": "Farmhouse Isolated",
+      "nameArb": "منزل ريفي منعزل",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "fashion-show": {
+      "giftLevel": 0,
+      "imageName": "fashion-show",
+      "name": "Fashion Show",
+      "nameArb": "عرض أزياء",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "gold-bars": {
+      "giftLevel": 0,
+      "imageName": "gold-bars",
+      "name": "Gold Bars",
+      "nameArb": "سبائك ذهب",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "passionate": {
+      "giftLevel": 0,
+      "imageName": "passionate",
+      "name": "Passionate",
+      "nameArb": "شغوف",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "rainy-day-couple": {
+      "giftLevel": 0,
+      "imageName": "rainy-day-couple",
+      "name": "Rainy Day Couple",
+      "nameArb": "زوجان في يوم ممطر",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "romantic-couple-3d": {
+      "giftLevel": 0,
+      "imageName": "romantic-couple-3d",
+      "name": "Romantic Couple 3D",
+      "nameArb": "زوجان رومانسيان ثلاثي الأبعاد",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "single-red-rose": {
+      "giftLevel": 0,
+      "imageName": "single-red-rose",
+      "name": "Single Red Rose",
+      "nameArb": "وردة حمراء واحدة",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "st_1": {
+      "giftLevel": 0,
+      "imageName": "st_1",
+      "name": "Gift 1",
+      "nameArb": "هدية 1",
+      "price": 99,
+      "redeemPrice": 14,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_10": {
+      "giftLevel": 0,
+      "imageName": "st_10",
+      "name": "Gift 10",
+      "nameArb": "هدية 10",
+      "price": 87,
+      "redeemPrice": 80,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_11": {
+      "giftLevel": 0,
+      "imageName": "st_11",
+      "name": "Gift 11",
+      "nameArb": "هدية 11",
+      "price": 12,
+      "redeemPrice": 1,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_12": {
+      "giftLevel": 0,
+      "imageName": "st_12",
+      "name": "Gift 12",
+      "nameArb": "هدية 12",
+      "price": 24,
+      "redeemPrice": 2,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_19": {
+      "giftLevel": 0,
+      "imageName": "st_19",
+      "name": "Gift 19",
+      "nameArb": "هدية 19",
+      "price": 76,
+      "redeemPrice": 74,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_2": {
+      "giftLevel": 1,
+      "imageName": "st_2",
+      "name": "Halloween 🎃 ",
+      "nameArb": "هدية 2",
+      "price": 48,
+      "redeemPrice": 6,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "st_20": {
+      "giftLevel": 0,
+      "imageName": "st_20",
+      "name": "Gift 20",
+      "nameArb": "هدية 20",
+      "price": 50,
+      "redeemPrice": 16,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_21": {
+      "giftLevel": 0,
+      "imageName": "st_21",
+      "name": "Gift 21",
+      "nameArb": "هدية 21",
+      "price": 11,
+      "redeemPrice": 5,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_24": {
+      "giftLevel": 1,
+      "imageName": "st_24",
+      "name": "Gift 24",
+      "nameArb": "هدية 24",
+      "price": 75,
+      "redeemPrice": 39,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_25": {
+      "giftLevel": 0,
+      "imageName": "st_25",
+      "name": "Gift 25",
+      "nameArb": "هدية 25",
+      "price": 25,
+      "redeemPrice": 1,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_26": {
+      "giftLevel": 0,
+      "imageName": "st_26",
+      "name": "Gift 26",
+      "nameArb": "هدية 26",
+      "price": 26,
+      "redeemPrice": 8,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_27": {
+      "giftLevel": 1,
+      "imageName": "st_27",
+      "name": "Gift 27",
+      "nameArb": "هدية 27",
+      "price": 31,
+      "redeemPrice": 16,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_28": {
+      "giftLevel": 0,
+      "imageName": "st_28",
+      "name": "Gift 28",
+      "nameArb": "هدية 28",
+      "price": 78,
+      "redeemPrice": 66,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_29": {
+      "giftLevel": 0,
+      "imageName": "st_29",
+      "name": "Gift 29",
+      "nameArb": "هدية 29",
+      "price": 39,
+      "redeemPrice": 31,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_3": {
+      "giftLevel": 0,
+      "imageName": "st_3",
+      "name": "Gift 3",
+      "nameArb": "هدية 3",
+      "price": 30,
+      "redeemPrice": 17,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_30": {
+      "giftLevel": 0,
+      "imageName": "st_30",
+      "name": "Gift 30",
+      "nameArb": "هدية 30",
+      "price": 56,
+      "redeemPrice": 35,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_31": {
+      "giftLevel": 0,
+      "imageName": "st_31",
+      "name": "Gift 31",
+      "nameArb": "هدية 31",
+      "price": 51,
+      "redeemPrice": 36,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_32": {
+      "giftLevel": 0,
+      "imageName": "st_32",
+      "name": "Gift 32",
+      "nameArb": "هدية 32",
+      "price": 48,
+      "redeemPrice": 12,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_33": {
+      "giftLevel": 1,
+      "imageName": "st_33",
+      "name": "Gift 33",
+      "nameArb": "هدية 33",
+      "price": 36,
+      "redeemPrice": 31,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_34": {
+      "giftLevel": 0,
+      "imageName": "st_34",
+      "name": "Gift 34",
+      "nameArb": "هدية 34",
+      "price": 47,
+      "redeemPrice": 2,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_35": {
+      "giftLevel": 0,
+      "imageName": "st_35",
+      "name": "Gift 35",
+      "nameArb": "هدية 35",
+      "price": 81,
+      "redeemPrice": 59,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_36": {
+      "giftLevel": 0,
+      "imageName": "st_36",
+      "name": "Gift 36",
+      "nameArb": "هدية 36",
+      "price": 39,
+      "redeemPrice": 3,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_37": {
+      "giftLevel": 0,
+      "imageName": "st_37",
+      "name": "Gift 37",
+      "nameArb": "هدية 37",
+      "price": 30,
+      "redeemPrice": 19,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_38": {
+      "giftLevel": 1,
+      "imageName": "st_38",
+      "name": "Angel 👼 ",
+      "nameArb": "هدية 38",
+      "price": 36,
+      "redeemPrice": 14,
+      "type": "Celebration & Party 🎉",
+      "typeArb": "الاحتفالات والحفلات 🎉"
+    },
+    "st_39": {
+      "giftLevel": 0,
+      "imageName": "st_39",
+      "name": "Gift 39",
+      "nameArb": "هدية 39",
+      "price": 34,
+      "redeemPrice": 22,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_4": {
+      "giftLevel": 0,
+      "imageName": "st_4",
+      "name": "Halloween",
+      "nameArb": "هدية 4",
+      "price": 84,
+      "redeemPrice": 53,
+      "type": "Soft Toys & Plushies 🧸",
+      "typeArb": "الألعاب 🧸"
+    },
+    "st_40": {
+      "giftLevel": 0,
+      "imageName": "st_40",
+      "name": "Gift 40",
+      "nameArb": "هدية 40",
+      "price": 23,
+      "redeemPrice": 3,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_41": {
+      "giftLevel": 0,
+      "imageName": "st_41",
+      "name": "Gift 41",
+      "nameArb": "هدية 41",
+      "price": 22,
+      "redeemPrice": 13,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_42": {
+      "giftLevel": 0,
+      "imageName": "st_42",
+      "name": "Gift 42",
+      "nameArb": "هدية 42",
+      "price": 46,
+      "redeemPrice": 39,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_43": {
+      "giftLevel": 0,
+      "imageName": "st_43",
+      "name": "Gift 43",
+      "nameArb": "هدية 43",
+      "price": 44,
+      "redeemPrice": 18,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_44": {
+      "giftLevel": 0,
+      "imageName": "st_44",
+      "name": "Gift 44",
+      "nameArb": "هدية 44",
+      "price": 53,
+      "redeemPrice": 36,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_45": {
+      "giftLevel": 0,
+      "imageName": "st_45",
+      "name": "Gift 45",
+      "nameArb": "هدية 45",
+      "price": 16,
+      "redeemPrice": 3,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_46": {
+      "giftLevel": 0,
+      "imageName": "st_46",
+      "name": "Gift 46",
+      "nameArb": "هدية 46",
+      "price": 24,
+      "redeemPrice": 23,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_47": {
+      "giftLevel": 1,
+      "imageName": "st_47",
+      "name": "Couple",
+      "nameArb": "هدية 47",
+      "price": 26,
+      "redeemPrice": 1,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_48": {
+      "giftLevel": 0,
+      "imageName": "st_48",
+      "name": "Gift 48",
+      "nameArb": "هدية 48",
+      "price": 15,
+      "redeemPrice": 9,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_49": {
+      "giftLevel": 0,
+      "imageName": "st_49",
+      "name": "Gift 49",
+      "nameArb": "هدية 49",
+      "price": 50,
+      "redeemPrice": 48,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_5": {
+      "giftLevel": 0,
+      "imageName": "st_5",
+      "name": "Gift 5",
+      "nameArb": "هدية 5",
+      "price": 66,
+      "redeemPrice": 47,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_50": {
+      "giftLevel": 0,
+      "imageName": "st_50",
+      "name": "Gift 50",
+      "nameArb": "هدية 50",
+      "price": 40,
+      "redeemPrice": 37,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_6": {
+      "giftLevel": 0,
+      "imageName": "st_6",
+      "name": "Gift 6",
+      "nameArb": "هدية 6",
+      "price": 53,
+      "redeemPrice": 35,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_7": {
+      "giftLevel": 0,
+      "imageName": "st_7",
+      "name": "Gift 7",
+      "nameArb": "هدية 7",
+      "price": 66,
+      "redeemPrice": 21,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_8": {
+      "giftLevel": 0,
+      "imageName": "st_8",
+      "name": "Gift 8",
+      "nameArb": "هدية 8",
+      "price": 77,
+      "redeemPrice": 74,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "st_9": {
+      "giftLevel": 0,
+      "imageName": "st_9",
+      "name": "Gift 9",
+      "nameArb": "هدية 9",
+      "price": 31,
+      "redeemPrice": 25,
+      "type": "Hot 🔥",
+      "typeArb": "رائج 🔥"
+    },
+    "train": {
+      "giftLevel": 0,
+      "imageName": "train",
+      "name": "Train",
+      "nameArb": "قطار",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    },
+    "trophy": {
+      "giftLevel": 0,
+      "imageName": "trophy",
+      "name": "Trophy",
+      "nameArb": "كأس",
+      "price": 300,
+      "redeemPrice": 200,
+      "type": "New ⭐",
+      "typeArb": "جديد ⭐"
+    }
+  }
+}

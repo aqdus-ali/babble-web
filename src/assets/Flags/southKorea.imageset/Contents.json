@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "southKorea.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

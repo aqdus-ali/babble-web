@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "single-red-rose.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
