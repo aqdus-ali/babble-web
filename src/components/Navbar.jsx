@@ -36,7 +36,7 @@ const Navbar = () => {
       "
         >
             {/* ================= TOP NAV ================= */}
-            <div className="mx-auto flex h-[62px] max-w-[1160px] items-center justify-between px-4 sm:px-6">
+            <div className="mx-auto flex h-[62px] max-w-[1160px] items-center justify-between px-4 sm:px-6 lg:px-0">
                 {/* ================= LOGO ================= */}
                 <button
                     onClick={() => scrollToSection("hero")}

@@ -1,38 +1,27 @@
-.icon-marquee {
-  width: 100%;
+.icon-marquee-mask {
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    #000 18%,
+    #000 82%,
+    transparent 100%
+  );
 
-  overflow: hidden;
-
-  padding: 60px 24px 50px;
-
-  -webkit-mask-image:
-    linear-gradient(
-      90deg,
-      transparent 0%,
-      #000 18%,
-      #000 82%,
-      transparent 100%
-    );
-
-  mask-image:
-    linear-gradient(
-      90deg,
-      transparent 0%,
-      #000 18%,
-      #000 82%,
-      transparent 100%
-    );
+  mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    #000 18%,
+    #000 82%,
+    transparent 100%
+  );
 }
 
-.marquee-track {
-  display: flex;
 
-  align-items: center;
+/* =========================
+   HORIZONTAL SCROLL
+========================= */
 
-  gap: 64px;
-
-  width: max-content;
-
+.marquee-track-animation {
   animation:
     marqueeScroll
     18s
@@ -50,13 +39,12 @@
   }
 }
 
-.mq-icon {
-  width: 160px;
 
-  height: auto;
+/* =========================
+   ICON WAVE
+========================= */
 
-  flex-shrink: 0;
-
+.mq-wave-animation {
   animation:
     mqWave
     2.8s
@@ -65,16 +53,6 @@
 
   animation-delay:
     calc(var(--i) * -0.35s);
-}
-
-.mq-icon img {
-  display: block;
-
-  width: 100%;
-
-  height: auto;
-
-  object-fit: contain;
 }
 
 @keyframes mqWave {

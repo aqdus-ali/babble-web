@@ -24,14 +24,37 @@ const IconMarquee = () => {
   ];
 
   return (
-    <section className="icon-marquee bg-[#FFF3E3]">
-      <div className="marquee-track">
-
+    <section
+      className="
+        icon-marquee-mask
+        w-full
+        overflow-hidden
+        bg-[#FFF3E3]
+        px-3
+        pb-[50px]
+        pt-[60px]
+        sm:px-4
+        md:px-6
+        lg:px-0
+      "
+    >
+      <div
+        className="
+          marquee-track-animation
+          flex
+          w-max
+          items-center
+          gap-16
+        "
+      >
         {repeatedIcons.map((icon, index) => (
           <div
             key={`${icon}-${index}`}
-            className="mq-icon"
-            // {is used for the animation delay.}
+            className="
+              mq-wave-animation
+              w-[160px]
+              shrink-0
+            "
             style={{
               "--i": index % icons.length,
             }}
@@ -39,10 +62,15 @@ const IconMarquee = () => {
             <img
               src={icon}
               alt={`Babble icon ${index % icons.length + 1}`}
+              className="
+                block
+                h-auto
+                w-full
+                object-contain
+              "
             />
           </div>
         ))}
-
       </div>
     </section>
   );
