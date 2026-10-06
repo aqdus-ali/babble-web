@@ -21,8 +21,8 @@ const Navbar = () => {
     const { language, changeLanguage, translateSection } = useLanguage();
 
     /* =========================================
-     TRANSLATION
-  ========================================= */
+       TRANSLATION
+    ========================================= */
 
     useEffect(() => {
         let active = true;
@@ -83,8 +83,8 @@ const Navbar = () => {
     }, [language, translateSection]);
 
     /* =========================================
-     SCROLL
-  ========================================= */
+       SCROLL
+    ========================================= */
 
     const scrollToSection = (id) => {
         const section = document.getElementById(id);
@@ -100,20 +100,18 @@ const Navbar = () => {
     };
 
     /* =========================================
-     NAV LINKS
-  ========================================= */
+       NAV LINKS
+    ========================================= */
 
     const navLinks = [
         {
             label: navText.gifts,
             id: "gifts",
         },
-
         {
             label: language === "ar" ? "كبار الشخصيات" : "VIP",
             id: "vip",
         },
-
         {
             label: navText.host,
             id: "host",
@@ -124,60 +122,60 @@ const Navbar = () => {
         <nav
             dir="ltr"
             className="
-        relative
-        z-50
-        w-full
-        border-b
-        border-[rgba(180,140,90,0.12)]
-        bg-[#FFF3E3]
-        font-[Nunito]
-      "
+                relative
+                z-50
+                w-full
+                border-b
+                border-[rgba(180,140,90,0.12)]
+                bg-[#FFF3E3]
+                font-[Nunito]
+            "
         >
             {/* =====================================
-          MAIN NAVBAR
-      ===================================== */}
+                MAIN NAVBAR
+            ===================================== */}
 
             <div
                 dir="ltr"
                 className={`
-          mx-auto
-          flex
-          h-[62px]
-          w-full
-          max-w-[1160px]
-          items-center
-          justify-between
-          px-4
-          sm:px-6
-          lg:px-0
+                    mx-auto
+                    flex
+                    h-[62px]
+                    w-full
+                    max-w-[1160px]
+                    items-center
+                    justify-between
+                    px-4
+                    sm:px-6
+                    lg:px-0
 
-          ${language === "ar" ? "flex-row-reverse" : "flex-row"}
-        `}
+                    ${language === "ar" ? "flex-row-reverse" : "flex-row"}
+                `}
             >
                 {/* =====================================
-            LOGO
-        ===================================== */}
+                    LOGO
+                ===================================== */}
 
                 <button
                     type="button"
                     onClick={() => scrollToSection("hero")}
                     className="
-            flex
-            shrink-0
-            items-center
-            gap-2
-          "
+                        flex
+                        shrink-0
+                        items-center
+                        gap-2
+                    "
                 >
                     <div
                         className="
-              flex
-              h-[30px]
-              w-[30px]
-              items-center
-              justify-center
-              rounded-[9px]
-              bg-[#201815]
-            "
+                            flex
+                            h-[30px]
+                            w-[30px]
+                            items-center
+                            justify-center
+                            rounded-[9px]
+                            bg-[#201815]
+                        "
                     >
                         <svg
                             width="17"
@@ -198,29 +196,29 @@ const Navbar = () => {
                     <span
                         dir={language === "ar" ? "rtl" : "ltr"}
                         className="
-              whitespace-nowrap
-              text-[15px]
-              font-extrabold
-              leading-[100%]
-              text-[#3A2A24]
-            "
+                            whitespace-nowrap
+                            text-[15px]
+                            font-extrabold
+                            leading-[100%]
+                            text-[#3A2A24]
+                        "
                     >
                         {language === "ar" ? "بابل" : "Babble"}
                     </span>
                 </button>
 
                 {/* =====================================
-            DESKTOP NAVIGATION
-        ===================================== */}
+                    DESKTOP NAVIGATION
+                ===================================== */}
 
                 <div
                     dir="ltr"
                     className="
-            hidden
-            items-center
-            gap-14
-            lg:flex
-          "
+                        hidden
+                        items-center
+                        gap-14
+                        lg:flex
+                    "
                 >
                     {navLinks.map((link) => (
                         <button
@@ -228,21 +226,21 @@ const Navbar = () => {
                             type="button"
                             onClick={() => scrollToSection(link.id)}
                             className="
-                  text-[14.5px]
-                  font-extrabold
-                  leading-[100%]
-                  text-[#7D6A5D]
-                  transition
-                  duration-200
-                  hover:text-[#3A2A24]
-                "
+                                text-[14.5px]
+                                font-extrabold
+                                leading-[100%]
+                                text-[#7D6A5D]
+                                transition
+                                duration-200
+                                hover:text-[#3A2A24]
+                            "
                         >
                             <span
                                 dir={language === "ar" ? "rtl" : "ltr"}
                                 className="
-                    inline-block
-                    whitespace-nowrap
-                  "
+                                    inline-block
+                                    whitespace-nowrap
+                                "
                             >
                                 {link.label}
                             </span>
@@ -251,56 +249,56 @@ const Navbar = () => {
                 </div>
 
                 {/* =====================================
-            NAV ACTIONS
-        ===================================== */}
+                    NAV ACTIONS
+                ===================================== */}
 
                 <div
                     dir="ltr"
                     className="
-            flex
-            shrink-0
-            items-center
-            gap-2
-            sm:gap-3
-          "
+                        flex
+                        shrink-0
+                        items-center
+                        gap-2
+                        sm:gap-3
+                    "
                 >
                     {/* =====================================
-              LANGUAGE SWITCH
-          ===================================== */}
+                        LANGUAGE SWITCH
+                    ===================================== */}
 
                     <div
                         dir="ltr"
                         className="
-              flex
-              items-center
-              rounded-full
-              border
-              border-[#E8D9C6]
-              bg-white
-              p-[3px]
-              shadow-sm
-            "
+                            flex
+                            items-center
+                            rounded-full
+                            border
+                            border-[#E8D9C6]
+                            bg-white
+                            p-[3px]
+                            shadow-sm
+                        "
                     >
                         <button
                             type="button"
                             onClick={() => changeLanguage("en")}
                             className={`
-                rounded-full
-                px-2
-                py-[5px]
-                text-[12px]
-                font-extrabold
-                leading-[100%]
-                transition
-                sm:px-3
-                sm:text-[13px]
+                                rounded-full
+                                px-2
+                                py-[5px]
+                                text-[12px]
+                                font-extrabold
+                                leading-[100%]
+                                transition
+                                sm:px-3
+                                sm:text-[13px]
 
-                ${
-                    language === "en"
-                        ? "bg-[#FF6F5A] text-white"
-                        : "text-[#8B776A]"
-                }
-              `}
+                                ${
+                                    language === "en"
+                                        ? "bg-[#FF6F5A] text-white"
+                                        : "text-[#8B776A]"
+                                }
+                            `}
                         >
                             EN
                         </button>
@@ -310,112 +308,112 @@ const Navbar = () => {
                             onClick={() => changeLanguage("ar")}
                             disabled={translating}
                             className={`
-                rounded-full
-                px-2
-                py-[5px]
-                text-[12px]
-                font-extrabold
-                leading-[100%]
-                transition
-                sm:px-3
-                sm:text-[13px]
+                                rounded-full
+                                px-2
+                                py-[5px]
+                                text-[12px]
+                                font-extrabold
+                                leading-[100%]
+                                transition
+                                sm:px-3
+                                sm:text-[13px]
 
-                ${
-                    language === "ar"
-                        ? "bg-[#FF6F5A] text-white"
-                        : "text-[#8B776A]"
-                }
+                                ${
+                                    language === "ar"
+                                        ? "bg-[#FF6F5A] text-white"
+                                        : "text-[#8B776A]"
+                                }
 
-                ${translating ? "cursor-wait opacity-70" : ""}
-              `}
+                                ${translating ? "cursor-wait opacity-70" : ""}
+                            `}
                         >
                             {translating && language === "ar" ? "..." : "عربي"}
                         </button>
                     </div>
 
                     {/* =====================================
-              DESKTOP SIGN IN
-          ===================================== */}
+                        DESKTOP SIGN IN
+                    ===================================== */}
 
                     <button
                         type="button"
                         className="
-              hidden
-              items-center
-              gap-2
-              rounded-full
-              border
-              border-[#E8D9C6]
-              bg-white
-              px-2
-              py-[5px]
-              pr-4
-              shadow-sm
-              lg:flex
-            "
+                            hidden
+                            items-center
+                            gap-2
+                            rounded-full
+                            border
+                            border-[#E8D9C6]
+                            bg-white
+                            px-2
+                            py-[5px]
+                            pr-4
+                            shadow-sm
+                            lg:flex
+                        "
                     >
                         <img
                             src={avatarMini}
                             alt=""
                             className="
-                h-[24px]
-                w-[24px]
-                object-contain
-              "
+                                h-[24px]
+                                w-[24px]
+                                object-contain
+                            "
                         />
 
                         <span
                             dir={language === "ar" ? "rtl" : "ltr"}
                             className="
-                whitespace-nowrap
-                text-[13px]
-                font-extrabold
-                text-[#3A2A24]
-              "
+                                whitespace-nowrap
+                                text-[13px]
+                                font-extrabold
+                                text-[#3A2A24]
+                            "
                         >
                             {navText.signIn}
                         </span>
                     </button>
 
                     {/* =====================================
-              DESKTOP GET APP
-          ===================================== */}
+                        DESKTOP GET APP
+                    ===================================== */}
 
                     <button
                         type="button"
                         onClick={() => scrollToSection("download")}
                         className="
-              hidden
-              rounded-full
-              bg-gradient-to-r
-              from-[#FF8A4C]
-              to-[#FF5F67]
-              px-5
-              py-[9px]
-              text-[13px]
-              font-extrabold
-              leading-[100%]
-              text-white
-              shadow-[0_5px_14px_rgba(255,96,82,0.28)]
-              transition
-              duration-200
-              hover:-translate-y-[1px]
-              lg:block
-            "
+                            hidden
+                            rounded-full
+                            bg-gradient-to-r
+                            from-[#FF8A4C]
+                            to-[#FF5F67]
+                            px-5
+                            py-[9px]
+                            text-[13px]
+                            font-extrabold
+                            leading-[100%]
+                            text-white
+                            shadow-[0_5px_14px_rgba(255,96,82,0.28)]
+                            transition
+                            duration-200
+                            hover:-translate-y-[1px]
+                            lg:block
+                        "
                     >
                         <span
                             dir={language === "ar" ? "rtl" : "ltr"}
                             className="
-                whitespace-nowrap
-              "
+                                whitespace-nowrap
+                            "
                         >
                             {navText.getApp}
                         </span>
                     </button>
 
                     {/* =====================================
-              MOBILE MENU BUTTON
-          ===================================== */}
+                        MOBILE MENU BUTTON
+                    ===================================== */}
 
                     <button
                         type="button"
@@ -423,106 +421,118 @@ const Navbar = () => {
                         aria-label={menuOpen ? "Close menu" : "Open menu"}
                         aria-expanded={menuOpen}
                         className="
-              relative
-              flex
-              h-[36px]
-              w-[36px]
-              shrink-0
-              items-center
-              justify-center
-              rounded-full
-              border
-              border-[#E8D9C6]
-              bg-white
-              shadow-sm
-              transition
-              duration-200
-              hover:bg-[#FFF8F0]
-              lg:hidden
-            "
+                            relative
+                            flex
+                            h-[36px]
+                            w-[36px]
+                            shrink-0
+                            items-center
+                            justify-center
+                            rounded-full
+                            border
+                            border-[#E8D9C6]
+                            bg-white
+                            shadow-sm
+                            transition
+                            duration-200
+                            hover:bg-[#FFF8F0]
+                            lg:hidden
+                        "
                     >
                         <span
                             className={`
-                absolute
-                h-[2px]
-                w-[16px]
-                rounded-full
-                bg-[#3A2A24]
-                transition-all
-                duration-300
+                                absolute
+                                h-[2px]
+                                w-[16px]
+                                rounded-full
+                                bg-[#3A2A24]
+                                transition-all
+                                duration-300
 
-                ${menuOpen ? "rotate-45" : "-translate-y-[5px]"}
-              `}
+                                ${menuOpen ? "rotate-45" : "-translate-y-[5px]"}
+                            `}
                         />
 
                         <span
                             className={`
-                absolute
-                h-[2px]
-                w-[16px]
-                rounded-full
-                bg-[#3A2A24]
-                transition-all
-                duration-300
+                                absolute
+                                h-[2px]
+                                w-[16px]
+                                rounded-full
+                                bg-[#3A2A24]
+                                transition-all
+                                duration-300
 
-                ${menuOpen ? "scale-x-0 opacity-0" : "scale-x-100 opacity-100"}
-              `}
+                                ${
+                                    menuOpen
+                                        ? "scale-x-0 opacity-0"
+                                        : "scale-x-100 opacity-100"
+                                }
+                            `}
                         />
 
                         <span
                             className={`
-                absolute
-                h-[2px]
-                w-[16px]
-                rounded-full
-                bg-[#3A2A24]
-                transition-all
-                duration-300
+                                absolute
+                                h-[2px]
+                                w-[16px]
+                                rounded-full
+                                bg-[#3A2A24]
+                                transition-all
+                                duration-300
 
-                ${menuOpen ? "-rotate-45" : "translate-y-[5px]"}
-              `}
+                                ${menuOpen ? "-rotate-45" : "translate-y-[5px]"}
+                            `}
                         />
                     </button>
                 </div>
             </div>
 
             {/* =====================================
-          MOBILE DROPDOWN
-      ===================================== */}
+                MOBILE DROPDOWN
+                IMPORTANT:
+                absolute = does NOT push Hero down
+            ===================================== */}
 
             {menuOpen && (
                 <div
                     className="
-            border-t
-            border-[rgba(180,140,90,0.12)]
-            bg-[#FFF3E3]
-            lg:hidden
-          "
+                        absolute
+                        left-0
+                        right-0
+                        top-full
+                        z-50
+                        border-t
+                        border-[rgba(180,140,90,0.12)]
+                        bg-[#FFF3E3]
+                        shadow-[0_14px_30px_rgba(60,40,25,0.12)]
+                        lg:hidden
+                    "
                 >
                     <div
                         dir={language === "ar" ? "rtl" : "ltr"}
                         className="
-              mx-auto
-              flex
-              w-full
-              max-w-[1160px]
-              flex-col
-              px-4
-              pb-5
-              pt-3
-              sm:px-6
-            "
+                            mx-auto
+                            flex
+                            w-full
+                            max-w-[1160px]
+                            flex-col
+                            px-4
+                            pb-5
+                            pt-3
+                            sm:px-6
+                        "
                     >
                         {/* =====================================
-                MOBILE LINKS
-            ===================================== */}
+                            MOBILE LINKS
+                        ===================================== */}
 
                         <div
                             className="
-                flex
-                flex-col
-                gap-1
-              "
+                                flex
+                                flex-col
+                                gap-1
+                            "
                         >
                             {navLinks.map((link) => (
                                 <button
@@ -530,20 +540,24 @@ const Navbar = () => {
                                     type="button"
                                     onClick={() => scrollToSection(link.id)}
                                     className={`
-                      w-full
-                      rounded-[10px]
-                      px-4
-                      py-[11px]
-                      text-[13px]
-                      font-extrabold
-                      text-[#7D6A5D]
-                      transition
-                      duration-200
-                      hover:bg-white
-                      hover:text-[#3A2A24]
+                                        w-full
+                                        rounded-[10px]
+                                        px-4
+                                        py-[11px]
+                                        text-[13px]
+                                        font-extrabold
+                                        text-[#7D6A5D]
+                                        transition
+                                        duration-200
+                                        hover:bg-white
+                                        hover:text-[#3A2A24]
 
-                      ${language === "ar" ? "text-right" : "text-left"}
-                    `}
+                                        ${
+                                            language === "ar"
+                                                ? "text-right"
+                                                : "text-left"
+                                        }
+                                    `}
                                 >
                                     {link.label}
                                 </button>
@@ -551,100 +565,100 @@ const Navbar = () => {
                         </div>
 
                         {/* =====================================
-    MOBILE ACTIONS
-===================================== */}
+                            MOBILE ACTIONS
+                        ===================================== */}
 
                         <div
                             dir="ltr"
                             className="
-    mt-3
-    grid
-    w-full
-    grid-cols-2
-    gap-2
-  "
+                                mt-3
+                                grid
+                                w-full
+                                grid-cols-2
+                                gap-2
+                            "
                         >
                             {/* =====================================
-      MOBILE SIGN IN
-  ===================================== */}
+                                MOBILE SIGN IN
+                            ===================================== */}
 
                             <button
                                 type="button"
                                 className="
-      flex
-      min-h-[42px]
-      w-full
-      items-center
-      justify-center
-      gap-2
-      rounded-[10px]
-      border
-      border-[#E8D9C6]
-      bg-white
-      px-3
-      text-[12px]
-      font-extrabold
-      text-[#3A2A24]
-      shadow-sm
-      sm:text-[13px]
-    "
+                                    flex
+                                    min-h-[42px]
+                                    w-full
+                                    items-center
+                                    justify-center
+                                    gap-2
+                                    rounded-[10px]
+                                    border
+                                    border-[#E8D9C6]
+                                    bg-white
+                                    px-3
+                                    text-[12px]
+                                    font-extrabold
+                                    text-[#3A2A24]
+                                    shadow-sm
+                                    sm:text-[13px]
+                                "
                             >
                                 <img
                                     src={avatarMini}
                                     alt=""
                                     className="
-        h-[22px]
-        w-[22px]
-        shrink-0
-        object-contain
-      "
+                                        h-[22px]
+                                        w-[22px]
+                                        shrink-0
+                                        object-contain
+                                    "
                                 />
 
                                 <span
                                     dir={language === "ar" ? "rtl" : "ltr"}
                                     className="
-        whitespace-nowrap
-        text-center
-      "
+                                        whitespace-nowrap
+                                        text-center
+                                    "
                                 >
                                     {navText.signIn}
                                 </span>
                             </button>
 
                             {/* =====================================
-      MOBILE GET APP
-  ===================================== */}
+                                MOBILE GET APP
+                            ===================================== */}
 
                             <button
                                 type="button"
                                 onClick={() => scrollToSection("download")}
                                 className="
-      flex
-      min-h-[42px]
-      w-full
-      items-center
-      justify-center
-      rounded-[10px]
-      bg-gradient-to-r
-      from-[#FF8A4C]
-      to-[#FF5F67]
-      px-3
-      text-[12px]
-      font-extrabold
-      text-white
-      shadow-[0_5px_14px_rgba(255,96,82,0.18)]
-      transition
-      duration-200
-      hover:-translate-y-[1px]
-      sm:text-[13px]
-    "
+                                    flex
+                                    min-h-[42px]
+                                    w-full
+                                    items-center
+                                    justify-center
+                                    rounded-[10px]
+                                    bg-gradient-to-r
+                                    from-[#FF8A4C]
+                                    to-[#FF5F67]
+                                    px-3
+                                    text-[12px]
+                                    font-extrabold
+                                    text-white
+                                    shadow-[0_5px_14px_rgba(255,96,82,0.18)]
+                                    transition
+                                    duration-200
+                                    hover:-translate-y-[1px]
+                                    sm:text-[13px]
+                                "
                             >
                                 <span
                                     dir={language === "ar" ? "rtl" : "ltr"}
                                     className="
-        whitespace-nowrap
-        text-center
-      "
+                                        whitespace-nowrap
+                                        text-center
+                                    "
                                 >
                                     {navText.getApp}
                                 </span>
