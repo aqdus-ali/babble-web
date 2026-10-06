@@ -45,12 +45,14 @@ export const translateBatch = async (texts) => {
 
   try {
     const response = await fetch(
-      "http://localhost:5000/api/translate",
+      "/.netlify/functions/translate",
       {
         method: "POST",
+
         headers: {
           "Content-Type": "application/json",
         },
+
         body: JSON.stringify({
           texts: missing,
           target: "AR",
@@ -59,8 +61,10 @@ export const translateBatch = async (texts) => {
     );
 
     if (!response.ok) {
+      const errorText = await response.text();
+
       throw new Error(
-        `Translation API error: ${response.status}`
+        `Translation API error: ${response.status} ${errorText}`
       );
     }
 
