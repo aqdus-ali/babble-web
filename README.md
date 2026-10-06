@@ -1,16 +1,71 @@
-# React + Vite
+# Babble Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Babble is a responsive web application built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+The website supports both English and Arabic, including RTL layouts, Arabic localisation, and dynamic translation using the DeepL Translation API through an Express.js backend server.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Responsive React + Vite frontend
+- Tailwind CSS styling
+- English and Arabic language support
+- RTL layout support for Arabic
+- DeepL API translation
+- Express.js translation server
+- Arabic localisation for Babble branding
+- Arabic-Indic number formatting
+- Animated hero and UI elements
+- Live-room inspired interface
+- Gifts and coin sections
+- VIP membership section
+- Host onboarding section
+- Download section
+- Support and feedback form
+- Responsive footer and navigation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+- CSS animations
+
+### Backend
+
+- Node.js
+- Express.js
+- CORS
+- dotenv
+- DeepL Translation API
+
+---
+
+## Arabic Translation
+
+Babble supports both English and Arabic.
+
+The Arabic version uses the DeepL Translation API together with an Express.js backend server.
+
+The React frontend does not call DeepL directly. This keeps the DeepL API key secure and prevents it from being exposed in the browser.
+
+### Translation Flow
+
+```text
+React Component
+      ↓
+LanguageContext
+      ↓
+translateSection()
+      ↓
+POST /api/translate
+      ↓
+Express.js Server
+      ↓
+DeepL Translation API
+      ↓
+Arabic Translation
+      ↓
+React Component
