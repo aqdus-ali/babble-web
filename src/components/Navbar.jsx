@@ -1,15 +1,90 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
 import avatarMini from "../assets/avatar-mini.png";
 
-const navLinks = [
-    { label: "Gifts", id: "gifts" },
-    { label: "VIP", id: "vip" },
-    { label: "Become a Host", id: "host" },
-];
+import { useLanguage } from "../context/LanguageContext.jsx";
+
+const DEFAULT_NAV_TEXT = {
+    gifts: "Gifts",
+    host: "Become a Host",
+    signIn: "Sign In",
+    getApp: "Get the App",
+};
 
 const Navbar = () => {
-    const [language, setLanguage] = useState("en");
     const [menuOpen, setMenuOpen] = useState(false);
+
+    const [navText, setNavText] = useState(DEFAULT_NAV_TEXT);
+
+    const [translating, setTranslating] = useState(false);
+
+    const { language, changeLanguage, translateSection } = useLanguage();
+
+    /* =========================================
+     TRANSLATION
+  ========================================= */
+
+    useEffect(() => {
+        let active = true;
+
+        const loadNavbarTranslation = async () => {
+            if (language === "en") {
+                setNavText(DEFAULT_NAV_TEXT);
+                setTranslating(false);
+                return;
+            }
+
+            try {
+                setTranslating(true);
+
+                const sourceTexts = [
+                    DEFAULT_NAV_TEXT.gifts,
+                    DEFAULT_NAV_TEXT.host,
+                    DEFAULT_NAV_TEXT.signIn,
+                    DEFAULT_NAV_TEXT.getApp,
+                ];
+
+                const translated = await translateSection(
+                    "navbar",
+                    sourceTexts,
+                );
+
+                if (!active) return;
+
+                setNavText({
+                    gifts: translated?.["Gifts"] || DEFAULT_NAV_TEXT.gifts,
+
+                    host:
+                        translated?.["Become a Host"] || DEFAULT_NAV_TEXT.host,
+
+                    signIn: translated?.["Sign In"] || DEFAULT_NAV_TEXT.signIn,
+
+                    getApp:
+                        translated?.["Get the App"] || DEFAULT_NAV_TEXT.getApp,
+                });
+            } catch (error) {
+                console.error("Navbar translation failed:", error);
+
+                if (active) {
+                    setNavText(DEFAULT_NAV_TEXT);
+                }
+            } finally {
+                if (active) {
+                    setTranslating(false);
+                }
+            }
+        };
+
+        loadNavbarTranslation();
+
+        return () => {
+            active = false;
+        };
+    }, [language, translateSection]);
+
+    /* =========================================
+     SCROLL
+  ========================================= */
 
     const scrollToSection = (id) => {
         const section = document.getElementById(id);
@@ -24,10 +99,33 @@ const Navbar = () => {
         setMenuOpen(false);
     };
 
+    /* =========================================
+     NAV LINKS
+  ========================================= */
+
+    const navLinks = [
+        {
+            label: navText.gifts,
+            id: "gifts",
+        },
+
+        {
+            label: language === "ar" ? "كبار الشخصيات" : "VIP",
+            id: "vip",
+        },
+
+        {
+            label: navText.host,
+            id: "host",
+        },
+    ];
+
     return (
         <nav
+            dir="ltr"
             className="
         relative
+        z-50
         w-full
         border-b
         border-[rgba(180,140,90,0.12)]
@@ -35,14 +133,52 @@ const Navbar = () => {
         font-[Nunito]
       "
         >
-            {/* ================= TOP NAV ================= */}
-            <div className="mx-auto flex h-[62px] max-w-[1160px] items-center justify-between px-4 sm:px-6 lg:px-0">
-                {/* ================= LOGO ================= */}
+            {/* =====================================
+          MAIN NAVBAR
+      ===================================== */}
+
+            <div
+                dir="ltr"
+                className={`
+          mx-auto
+          flex
+          h-[62px]
+          w-full
+          max-w-[1160px]
+          items-center
+          justify-between
+          px-4
+          sm:px-6
+          lg:px-0
+
+          ${language === "ar" ? "flex-row-reverse" : "flex-row"}
+        `}
+            >
+                {/* =====================================
+            LOGO
+        ===================================== */}
+
                 <button
+                    type="button"
                     onClick={() => scrollToSection("hero")}
-                    className="flex items-center gap-2"
+                    className="
+            flex
+            shrink-0
+            items-center
+            gap-2
+          "
                 >
-                    <div className="flex h-[30px] w-[30px] items-center justify-center rounded-[9px] bg-[#201815]">
+                    <div
+                        className="
+              flex
+              h-[30px]
+              w-[30px]
+              items-center
+              justify-center
+              rounded-[9px]
+              bg-[#201815]
+            "
+                    >
                         <svg
                             width="17"
                             height="17"
@@ -59,39 +195,95 @@ const Navbar = () => {
                         </svg>
                     </div>
 
-                    <span className="text-[15px] font-extrabold leading-[100%] text-[#3A2A24]">
-                        Babble
+                    <span
+                        dir={language === "ar" ? "rtl" : "ltr"}
+                        className="
+              whitespace-nowrap
+              text-[15px]
+              font-extrabold
+              leading-[100%]
+              text-[#3A2A24]
+            "
+                    >
+                        {language === "ar" ? "بابل" : "Babble"}
                     </span>
                 </button>
 
-                {/* ================= DESKTOP MENU ================= */}
-                <div className="hidden items-center gap-14 lg:flex">
+                {/* =====================================
+            DESKTOP NAVIGATION
+        ===================================== */}
+
+                <div
+                    dir="ltr"
+                    className="
+            hidden
+            items-center
+            gap-14
+            lg:flex
+          "
+                >
                     {navLinks.map((link) => (
                         <button
                             key={link.id}
+                            type="button"
                             onClick={() => scrollToSection(link.id)}
                             className="
-                text-[14.5px]
-                font-extrabold
-                leading-[100%]
-                tracking-[0]
-                text-[#7D6A5D]
-                transition
-                duration-200
-                hover:text-[#3A2A24]
-              "
+                  text-[14.5px]
+                  font-extrabold
+                  leading-[100%]
+                  text-[#7D6A5D]
+                  transition
+                  duration-200
+                  hover:text-[#3A2A24]
+                "
                         >
-                            {link.label}
+                            <span
+                                dir={language === "ar" ? "rtl" : "ltr"}
+                                className="
+                    inline-block
+                    whitespace-nowrap
+                  "
+                            >
+                                {link.label}
+                            </span>
                         </button>
                     ))}
                 </div>
 
-                {/* ================= RIGHT SIDE ================= */}
-                <div className="flex items-center gap-2 sm:gap-3">
-                    {/* Language Toggle */}
-                    <div className="flex items-center rounded-full border border-[#E8D9C6] bg-white p-[3px] shadow-sm">
+                {/* =====================================
+            NAV ACTIONS
+        ===================================== */}
+
+                <div
+                    dir="ltr"
+                    className="
+            flex
+            shrink-0
+            items-center
+            gap-2
+            sm:gap-3
+          "
+                >
+                    {/* =====================================
+              LANGUAGE SWITCH
+          ===================================== */}
+
+                    <div
+                        dir="ltr"
+                        className="
+              flex
+              items-center
+              rounded-full
+              border
+              border-[#E8D9C6]
+              bg-white
+              p-[3px]
+              shadow-sm
+            "
+                    >
                         <button
-                            onClick={() => setLanguage("en")}
+                            type="button"
+                            onClick={() => changeLanguage("en")}
                             className={`
                 rounded-full
                 px-2
@@ -99,10 +291,10 @@ const Navbar = () => {
                 text-[12px]
                 font-extrabold
                 leading-[100%]
-                text-center
                 transition
                 sm:px-3
                 sm:text-[13px]
+
                 ${
                     language === "en"
                         ? "bg-[#FF6F5A] text-white"
@@ -114,7 +306,9 @@ const Navbar = () => {
                         </button>
 
                         <button
-                            onClick={() => setLanguage("ar")}
+                            type="button"
+                            onClick={() => changeLanguage("ar")}
+                            disabled={translating}
                             className={`
                 rounded-full
                 px-2
@@ -122,23 +316,29 @@ const Navbar = () => {
                 text-[12px]
                 font-extrabold
                 leading-[100%]
-                text-center
                 transition
                 sm:px-3
                 sm:text-[13px]
+
                 ${
                     language === "ar"
                         ? "bg-[#FF6F5A] text-white"
                         : "text-[#8B776A]"
                 }
+
+                ${translating ? "cursor-wait opacity-70" : ""}
               `}
                         >
-                            عربي
+                            {translating && language === "ar" ? "..." : "عربي"}
                         </button>
                     </div>
 
-                    {/* ================= DESKTOP SIGN IN ================= */}
+                    {/* =====================================
+              DESKTOP SIGN IN
+          ===================================== */}
+
                     <button
+                        type="button"
                         className="
               hidden
               items-center
@@ -156,26 +356,33 @@ const Navbar = () => {
                     >
                         <img
                             src={avatarMini}
-                            alt="Sign in"
-                            className="h-[24px] w-[24px] object-contain"
+                            alt=""
+                            className="
+                h-[24px]
+                w-[24px]
+                object-contain
+              "
                         />
 
                         <span
+                            dir={language === "ar" ? "rtl" : "ltr"}
                             className="
+                whitespace-nowrap
                 text-[13px]
                 font-extrabold
-                leading-[100%]
-                tracking-[0]
-                text-center
                 text-[#3A2A24]
               "
                         >
-                            Sign In
+                            {navText.signIn}
                         </span>
                     </button>
 
-                    {/* ================= DESKTOP GET APP ================= */}
+                    {/* =====================================
+              DESKTOP GET APP
+          ===================================== */}
+
                     <button
+                        type="button"
                         onClick={() => scrollToSection("download")}
                         className="
               hidden
@@ -188,8 +395,6 @@ const Navbar = () => {
               text-[13px]
               font-extrabold
               leading-[100%]
-              tracking-[0]
-              text-center
               text-white
               shadow-[0_5px_14px_rgba(255,96,82,0.28)]
               transition
@@ -198,171 +403,256 @@ const Navbar = () => {
               lg:block
             "
                     >
-                        Get the App
+                        <span
+                            dir={language === "ar" ? "rtl" : "ltr"}
+                            className="
+                whitespace-nowrap
+              "
+                        >
+                            {navText.getApp}
+                        </span>
                     </button>
 
-                    {/* ================= HAMBURGER ================= */}
+                    {/* =====================================
+              MOBILE MENU BUTTON
+          ===================================== */}
+
                     <button
-                        onClick={() => setMenuOpen(!menuOpen)}
-                        aria-label="Toggle menu"
+                        type="button"
+                        onClick={() => setMenuOpen((current) => !current)}
+                        aria-label={menuOpen ? "Close menu" : "Open menu"}
                         aria-expanded={menuOpen}
                         className="
+              relative
               flex
-              h-[40px]
-              w-[40px]
-              flex-col
+              h-[36px]
+              w-[36px]
+              shrink-0
               items-center
               justify-center
-              gap-[5px]
-              rounded-[12px]
+              rounded-full
               border
               border-[#E8D9C6]
               bg-white
               shadow-sm
+              transition
+              duration-200
+              hover:bg-[#FFF8F0]
               lg:hidden
             "
                     >
                         <span
                             className={`
+                absolute
                 h-[2px]
-                w-[18px]
+                w-[16px]
                 rounded-full
                 bg-[#3A2A24]
-                transition
+                transition-all
                 duration-300
-                ${menuOpen ? "translate-y-[7px] rotate-45" : ""}
+
+                ${menuOpen ? "rotate-45" : "-translate-y-[5px]"}
               `}
                         />
 
                         <span
                             className={`
+                absolute
                 h-[2px]
-                w-[18px]
+                w-[16px]
                 rounded-full
                 bg-[#3A2A24]
-                transition
+                transition-all
                 duration-300
-                ${menuOpen ? "opacity-0" : "opacity-100"}
+
+                ${menuOpen ? "scale-x-0 opacity-0" : "scale-x-100 opacity-100"}
               `}
                         />
 
                         <span
                             className={`
+                absolute
                 h-[2px]
-                w-[18px]
+                w-[16px]
                 rounded-full
                 bg-[#3A2A24]
-                transition
+                transition-all
                 duration-300
-                ${menuOpen ? "-translate-y-[7px] -rotate-45" : ""}
+
+                ${menuOpen ? "-rotate-45" : "translate-y-[5px]"}
               `}
                         />
                     </button>
                 </div>
             </div>
 
-            {/* ================= MOBILE MENU ================= */}
-            <div
-                className={`
-          absolute
-          left-0
-          top-[62px]
-          z-50
-          w-full
-          overflow-hidden
-          border-t
-          border-[rgba(180,140,90,0.10)]
-          bg-[#FFF3E3]
-          shadow-[0_12px_30px_rgba(78,52,35,0.12)]
-          transition-all
-          duration-300
-          lg:hidden
-          ${
-              menuOpen
-                  ? "max-h-[500px] opacity-100"
-                  : "pointer-events-none max-h-0 opacity-0"
-          }
-        `}
-            >
-                <div className="px-5 pb-6 pt-4">
-                    {/* Mobile Navigation Links */}
-                    <div className="flex flex-col">
-                        {navLinks.map((link) => (
-                            <button
-                                key={link.id}
-                                onClick={() => scrollToSection(link.id)}
-                                className="
-                  border-b
-                  border-[#EADCCB]
-                  py-4
-                  text-left
-                  text-[15px]
-                  font-extrabold
-                  text-[#5E493E]
-                  transition
-                  hover:text-[#FF6F5A]
-                "
-                            >
-                                {link.label}
-                            </button>
-                        ))}
-                    </div>
+            {/* =====================================
+          MOBILE DROPDOWN
+      ===================================== */}
 
-                    {/* Mobile Buttons */}
-                    <div className="mt-5 flex gap-3">
-                        {/* Sign In */}
-                        <button
+            {menuOpen && (
+                <div
+                    className="
+            border-t
+            border-[rgba(180,140,90,0.12)]
+            bg-[#FFF3E3]
+            lg:hidden
+          "
+                >
+                    <div
+                        dir={language === "ar" ? "rtl" : "ltr"}
+                        className="
+              mx-auto
+              flex
+              w-full
+              max-w-[1160px]
+              flex-col
+              px-4
+              pb-5
+              pt-3
+              sm:px-6
+            "
+                    >
+                        {/* =====================================
+                MOBILE LINKS
+            ===================================== */}
+
+                        <div
                             className="
+                flex
+                flex-col
+                gap-1
+              "
+                        >
+                            {navLinks.map((link) => (
+                                <button
+                                    key={link.id}
+                                    type="button"
+                                    onClick={() => scrollToSection(link.id)}
+                                    className={`
+                      w-full
+                      rounded-[10px]
+                      px-4
+                      py-[11px]
+                      text-[13px]
+                      font-extrabold
+                      text-[#7D6A5D]
+                      transition
+                      duration-200
+                      hover:bg-white
+                      hover:text-[#3A2A24]
+
+                      ${language === "ar" ? "text-right" : "text-left"}
+                    `}
+                                >
+                                    {link.label}
+                                </button>
+                            ))}
+                        </div>
+
+                        {/* =====================================
+    MOBILE ACTIONS
+===================================== */}
+
+                        <div
+                            dir="ltr"
+                            className="
+    mt-3
+    grid
+    w-full
+    grid-cols-2
+    gap-2
+  "
+                        >
+                            {/* =====================================
+      MOBILE SIGN IN
+  ===================================== */}
+
+                            <button
+                                type="button"
+                                className="
       flex
-      h-[48px]
-      flex-1
+      min-h-[42px]
+      w-full
       items-center
       justify-center
       gap-2
-      rounded-full
+      rounded-[10px]
       border
       border-[#E8D9C6]
       bg-white
       px-3
-      text-[13px]
+      text-[12px]
       font-extrabold
-      leading-[100%]
       text-[#3A2A24]
       shadow-sm
+      sm:text-[13px]
     "
-                        >
-                            <img
-                                src={avatarMini}
-                                alt="Sign in"
-                                className="h-[24px] w-[24px] object-contain"
-                            />
+                            >
+                                <img
+                                    src={avatarMini}
+                                    alt=""
+                                    className="
+        h-[22px]
+        w-[22px]
+        shrink-0
+        object-contain
+      "
+                                />
 
-                            <span>Sign In</span>
-                        </button>
+                                <span
+                                    dir={language === "ar" ? "rtl" : "ltr"}
+                                    className="
+        whitespace-nowrap
+        text-center
+      "
+                                >
+                                    {navText.signIn}
+                                </span>
+                            </button>
 
-                        {/* Get App */}
-                        <button
-                            onClick={() => scrollToSection("download")}
-                            className="
-      h-[48px]
-      flex-1
-      rounded-full
+                            {/* =====================================
+      MOBILE GET APP
+  ===================================== */}
+
+                            <button
+                                type="button"
+                                onClick={() => scrollToSection("download")}
+                                className="
+      flex
+      min-h-[42px]
+      w-full
+      items-center
+      justify-center
+      rounded-[10px]
       bg-gradient-to-r
       from-[#FF8A4C]
       to-[#FF5F67]
       px-3
-      text-[13px]
+      text-[12px]
       font-extrabold
-      leading-[100%]
       text-white
-      shadow-[0_7px_18px_rgba(255,96,82,0.25)]
+      shadow-[0_5px_14px_rgba(255,96,82,0.18)]
+      transition
+      duration-200
+      hover:-translate-y-[1px]
+      sm:text-[13px]
     "
-                        >
-                            Get the App
-                        </button>
+                            >
+                                <span
+                                    dir={language === "ar" ? "rtl" : "ltr"}
+                                    className="
+        whitespace-nowrap
+        text-center
+      "
+                                >
+                                    {navText.getApp}
+                                </span>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
+            )}
         </nav>
     );
 };

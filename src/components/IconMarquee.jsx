@@ -25,6 +25,7 @@ const IconMarquee = () => {
 
   return (
     <section
+      dir="ltr"
       className="
         icon-marquee-mask
         w-full
@@ -39,38 +40,48 @@ const IconMarquee = () => {
       "
     >
       <div
+        dir="ltr"
         className="
           marquee-track-animation
           flex
+          flex-row
           w-max
           items-center
           gap-16
         "
       >
-        {repeatedIcons.map((icon, index) => (
-          <div
-            key={`${icon}-${index}`}
-            className="
-              mq-wave-animation
-              w-[160px]
-              shrink-0
-            "
-            style={{
-              "--i": index % icons.length,
-            }}
-          >
-            <img
-              src={icon}
-              alt={`Babble icon ${index % icons.length + 1}`}
+        {repeatedIcons.map(
+          (icon, index) => (
+            <div
+              key={`${icon}-${index}`}
               className="
-                block
-                h-auto
-                w-full
-                object-contain
+                mq-wave-animation
+                w-[160px]
+                shrink-0
               "
-            />
-          </div>
-        ))}
+              style={{
+                "--i":
+                  index %
+                  icons.length,
+              }}
+            >
+              <img
+                src={icon}
+                alt={`Babble icon ${
+                  (index %
+                    icons.length) +
+                  1
+                }`}
+                className="
+                  block
+                  h-auto
+                  w-full
+                  object-contain
+                "
+              />
+            </div>
+          )
+        )}
       </div>
     </section>
   );
